@@ -1,0 +1,138 @@
+{
+  "id": "backyard-dusk",
+  "title": "暮色后院",
+  "file": "backyard-dusk.png",
+  "coordinate_system": "normalized image coordinates, origin top left",
+  "fit": "stretch",
+  "walking_plane_y": 0.88,
+  "occlusion_kind": "approximate solid foreground polygons; not per-leaf alpha segmentation",
+  "occluders": [
+    {
+      "id": "left-shrubs",
+      "polygon": [
+        [
+          0.0,
+          0.53
+        ],
+        [
+          0.03,
+          0.55
+        ],
+        [
+          0.045,
+          0.59
+        ],
+        [
+          0.08,
+          0.61
+        ],
+        [
+          0.1,
+          0.67
+        ],
+        [
+          0.13,
+          0.67
+        ],
+        [
+          0.15,
+          0.72
+        ],
+        [
+          0.2,
+          0.71
+        ],
+        [
+          0.22,
+          0.77
+        ],
+        [
+          0.27,
+          0.8
+        ],
+        [
+          0.24,
+          0.84
+        ],
+        [
+          0.15,
+          0.87
+        ],
+        [
+          0.06,
+          0.89
+        ],
+        [
+          0.0,
+          0.91
+        ]
+      ],
+      "hiding_point": [
+        0.13,
+        0.86
+      ]
+    },
+    {
+      "id": "right-grass-stone",
+      "polygon": [
+        [
+          1.0,
+          0.65
+        ],
+        [
+          0.97,
+          0.69
+        ],
+        [
+          0.94,
+          0.69
+        ],
+        [
+          0.92,
+          0.73
+        ],
+        [
+          0.89,
+          0.75
+        ],
+        [
+          0.87,
+          0.8
+        ],
+        [
+          0.83,
+          0.84
+        ],
+        [
+          0.87,
+          0.87
+        ],
+        [
+          0.94,
+          0.89
+        ],
+        [
+          1.0,
+          0.93
+        ]
+      ],
+      "hiding_point": [
+        0.94,
+        0.86
+      ]
+    }
+  ],
+  "notes": "Use the same transform for image, cat coordinates and polygons. The mask intentionally approximates dense plant/stone silhouettes and should not be advertised as detailed leaf-level segmentation. The ordinary desktop mode must not assume this mask matches the user's own wallpaper.",
+  "canvas": [
+    1586,
+    992
+  ],
+  "orientation": "landscape",
+  "theme_id": "classic",
+  "phase": "dusk",
+  "cycle_pair": {
+    "morning": "backyard-morning",
+    "dusk": "backyard-dusk"
+  },
+  "layout_id": "backyard-dusk-v1"
+}
