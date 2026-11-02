@@ -1,0 +1,8082 @@
+{
+  "version": 1,
+  "kind": "backyard-anatomical-coat-maps",
+  "encoding": "R=part1..5 | sideRight<<3 | protected0..15<<4; G=u; B=v; A=255 on fur",
+  "parts": [
+    "body",
+    "head",
+    "tail",
+    "front_leg",
+    "hind_leg"
+  ],
+  "frames": {
+    "5da36003a875a8a3b55b1bd7946947a4a9005759d180f695309d54315be182c7": {
+      "label": "cat-000",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/5da36003a875a8a3b55b1bd7946947a4a9005759d180f695309d54315be182c7.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              47,
+              68
+            ],
+            [
+              96,
+              69
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              56
+            ],
+            [
+              34,
+              49
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              47,
+              75
+            ],
+            [
+              22,
+              106
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              76
+            ],
+            [
+              119,
+              106
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              64
+            ],
+            [
+              123,
+              50
+            ],
+            [
+              122,
+              38
+            ],
+            [
+              116,
+              35
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "b0686687a03de4837113dc9b6a92f8ec7728b68d9f3b0189c6f62b38ebd40204",
+      "neutral_sha256": "fadb535b039f2739744adde3294f1fadbcc1810dd09b1510841b923cb87807cc"
+    },
+    "44832dd68055ff1a94e71fc5035b6373ba280b669797d3f00d7358b87ca71e7d": {
+      "label": "cat-001",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/44832dd68055ff1a94e71fc5035b6373ba280b669797d3f00d7358b87ca71e7d.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              47,
+              68
+            ],
+            [
+              96,
+              69
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              56
+            ],
+            [
+              34,
+              49
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              45,
+              75
+            ],
+            [
+              37,
+              91
+            ],
+            [
+              37,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              76
+            ],
+            [
+              91,
+              104
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              64
+            ],
+            [
+              123,
+              50
+            ],
+            [
+              122,
+              38
+            ],
+            [
+              116,
+              35
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "2cf6b4ba836187504d8be56e0697bed20f583d40f4c75aefd33dba517156968c",
+      "neutral_sha256": "041b456ca2869cd183f0282e38b89b0f4bcbb8e8171847fa0949d4056ea36eed"
+    },
+    "0d23f5dfe6697ddf73278f02e02f824222606e47b6d5effeda4d106baaa7b6a6": {
+      "label": "cat-002",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/0d23f5dfe6697ddf73278f02e02f824222606e47b6d5effeda4d106baaa7b6a6.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              73,
+              62
+            ],
+            [
+              77,
+              94
+            ]
+          ],
+          "radius": 21,
+          "side": "front-split",
+          "mode": "front",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              53,
+              48
+            ],
+            [
+              66,
+              39
+            ]
+          ],
+          "radius": 16,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.18
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              69,
+              73
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              80,
+              74
+            ],
+            [
+              76,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              89,
+              87
+            ],
+            [
+              90,
+              104
+            ]
+          ],
+          "radius": 9,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              90,
+              102
+            ],
+            [
+              68,
+              105
+            ],
+            [
+              55,
+              103
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "3ecfff4a10e1622cede7b67d77212ae241b35f55d429bfa947f816de3426b4ca",
+      "neutral_sha256": "e044cf875f23cc42e8533adfd75e5e5a32bae1673b89f27c788517303a19c8a8"
+    },
+    "ed388b93b86bef24f35e489755847c9af8e0502761f576469308dbde09b33dff": {
+      "label": "cat-003",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/ed388b93b86bef24f35e489755847c9af8e0502761f576469308dbde09b33dff.png",
+      "states": [
+        "peeking"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              50,
+              85
+            ],
+            [
+              98,
+              85
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              87
+            ],
+            [
+              34,
+              80
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              49,
+              89
+            ],
+            [
+              35,
+              106
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              101,
+              87
+            ],
+            [
+              96,
+              106
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              113,
+              86
+            ],
+            [
+              131,
+              99
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        }
+      ],
+      "pads": [],
+      "map_sha256": "0c813341109f9cd885f4d47b6f19b02e105b44036de1a284d41750233bbc2a3d",
+      "neutral_sha256": "9040bca75afde01e26f7183c66c6fe43afab7ee6e2aee2a4a34b9ac5290b774d"
+    },
+    "d0462534449bd8c2f52c2264af45f3e342aa5102c42a0b772bfb3708a5c57a7e": {
+      "label": "cat-004",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/d0462534449bd8c2f52c2264af45f3e342aa5102c42a0b772bfb3708a5c57a7e.png",
+      "states": [
+        "grooming"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              73,
+              62
+            ],
+            [
+              77,
+              94
+            ]
+          ],
+          "radius": 21,
+          "side": "front-split",
+          "mode": "front",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              64,
+              49
+            ],
+            [
+              74,
+              42
+            ]
+          ],
+          "radius": 16,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.18
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              72,
+              67
+            ],
+            [
+              58,
+              64
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              80,
+              74
+            ],
+            [
+              76,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              89,
+              87
+            ],
+            [
+              90,
+              104
+            ]
+          ],
+          "radius": 9,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              90,
+              102
+            ],
+            [
+              68,
+              105
+            ],
+            [
+              55,
+              103
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "ee67114b24c684a7182876f63733972084fab9095cce2d861ce0cc18d84bffa4",
+      "neutral_sha256": "f47817b7bb830820195d7a0e9c693e2e9cde985b0453a4a3eee94d0c65ba1b3d"
+    },
+    "e9fe1d82f736b73801f4a5c6d2462acd3b2b5f75aba2aeb75114c67487c9c5d9": {
+      "label": "cat-005",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/e9fe1d82f736b73801f4a5c6d2462acd3b2b5f75aba2aeb75114c67487c9c5d9.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              50,
+              94
+            ],
+            [
+              98,
+              94
+            ]
+          ],
+          "radius": 17,
+          "side": "left",
+          "mode": "front",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              19,
+              97
+            ],
+            [
+              32,
+              91
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              45,
+              96
+            ],
+            [
+              47,
+              106
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              97
+            ],
+            [
+              109,
+              105
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              114,
+              98
+            ],
+            [
+              136,
+              104
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              57,
+              94
+            ],
+            [
+              50,
+              103
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.03
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              109,
+              96
+            ],
+            [
+              108,
+              106
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.03
+        }
+      ],
+      "pads": [
+        [
+          47,
+          106,
+          2.3
+        ],
+        [
+          109,
+          105,
+          2.3
+        ]
+      ],
+      "map_sha256": "73fa71a3dc15a618a697728a67a625cdd1f2d298e7e097d161903dffe5609a94",
+      "neutral_sha256": "ce849d675fdd98dbc3021c595403426301c259467f496ada00b0289b6f2075d0"
+    },
+    "49f9cb1b12e63b26dce8588e49b889cac39657f02b373804940948c1d80e8bce": {
+      "label": "cat-006",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/49f9cb1b12e63b26dce8588e49b889cac39657f02b373804940948c1d80e8bce.png",
+      "states": [
+        "carried"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              73,
+              43
+            ],
+            [
+              79,
+              77
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "front-side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              59,
+              22
+            ],
+            [
+              69,
+              15
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              69,
+              44
+            ],
+            [
+              66,
+              60
+            ]
+          ],
+          "radius": 5,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              81,
+              45
+            ],
+            [
+              78,
+              64
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              77,
+              77
+            ],
+            [
+              65,
+              95
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              88,
+              76
+            ],
+            [
+              85,
+              99
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              86,
+              79
+            ],
+            [
+              92,
+              98
+            ],
+            [
+              81,
+              107
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "8335f6a2c1462c2a7af5d3898ab5b8e645ccd731c0b6f5ac4c6b785e3a0bebc5",
+      "neutral_sha256": "4feaab69e1ac4f3264191280782e4783b39eff10ba62def597dbe3103741512c"
+    },
+    "617bd913d22f8ed467a29a9208c5d7485bf1281e6430334f5c20c329488f0601": {
+      "label": "cat-007",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/617bd913d22f8ed467a29a9208c5d7485bf1281e6430334f5c20c329488f0601.png",
+      "states": [
+        "eating"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              43,
+              77
+            ],
+            [
+              88,
+              69
+            ]
+          ],
+          "radius": 20,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              17,
+              94
+            ],
+            [
+              27,
+              84
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              44,
+              83
+            ],
+            [
+              38,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              91,
+              78
+            ],
+            [
+              96,
+              106
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              101,
+              71
+            ],
+            [
+              115,
+              93
+            ],
+            [
+              131,
+              94
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        }
+      ],
+      "pads": [],
+      "map_sha256": "042f871b3c37123a3fa8535ad97b4d016532cae26906db848679d50c4945a929",
+      "neutral_sha256": "97cc99b74710c6f6ba22f0cf4c0d9b3e4f3ee9d59cf4d03b08cbb094a24faf41"
+    },
+    "cff1b71b2bdfa4ac52852a6c33d11fb64ce4fbbe34d76ed43d692b3604e80544": {
+      "label": "cat-008",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/cff1b71b2bdfa4ac52852a6c33d11fb64ce4fbbe34d76ed43d692b3604e80544.png",
+      "states": [
+        "tail_peeking"
+      ],
+      "regions": [
+        {
+          "part": "tail",
+          "path": [
+            [
+              72,
+              111
+            ],
+            [
+              83,
+              84
+            ],
+            [
+              81,
+              62
+            ],
+            [
+              65,
+              48
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "56dc70b465ff37678ce5080cf2cb27d90b72e20e49b609d8dd2d66aefe594cb2",
+      "neutral_sha256": "52f98b6421540db206f1c0bd7a71103011e6b64185cd0719dddc0914d707ca62"
+    },
+    "520d721b16a0b37a83abce87553a0c5c771c2b5d7a9c05aa32e01e9f2d773278": {
+      "label": "cat-009",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/520d721b16a0b37a83abce87553a0c5c771c2b5d7a9c05aa32e01e9f2d773278.png",
+      "states": [
+        "jumping"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              48,
+              74
+            ],
+            [
+              97,
+              76
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              62
+            ],
+            [
+              36,
+              57
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              48,
+              79
+            ],
+            [
+              9,
+              93
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              101,
+              78
+            ],
+            [
+              130,
+              95
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              72
+            ],
+            [
+              131,
+              49
+            ],
+            [
+              138,
+              43
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              48,
+              82
+            ],
+            [
+              14,
+              88
+            ]
+          ],
+          "radius": 4,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "0e719ab48fa640e65caaea892fc363aac1da158ca42e5bd5e5e4264388e09954",
+      "neutral_sha256": "be7a090b9f3417c231c3fd11ab95675b78af9f91eb0a734052a8c5b620bf63e3"
+    },
+    "64c9cf1fe646f542ceaf68ac01e4ce872cf2de657513d1ff7346a6d16c4b2f5a": {
+      "label": "cat-010",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/64c9cf1fe646f542ceaf68ac01e4ce872cf2de657513d1ff7346a6d16c4b2f5a.png",
+      "states": [
+        "walking"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              47,
+              68
+            ],
+            [
+              96,
+              69
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              56
+            ],
+            [
+              34,
+              49
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              47,
+              75
+            ],
+            [
+              23,
+              106
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              76
+            ],
+            [
+              125,
+              106
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              64
+            ],
+            [
+              123,
+              50
+            ],
+            [
+              122,
+              38
+            ],
+            [
+              116,
+              35
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "7a719fcd67c4a3d16f3c28e8739c4a45e444b15b071603e57776c5947ccdae6b",
+      "neutral_sha256": "c0aaf3e27fdc47cc1230ced8b5665b841349827af8693549660b8ea095e32431"
+    },
+    "36a778e1e68282cb0a3256740bc1cfe4ac10e6c9ad714a31fe23a06b623567bd": {
+      "label": "cat-011",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/36a778e1e68282cb0a3256740bc1cfe4ac10e6c9ad714a31fe23a06b623567bd.png",
+      "states": [
+        "walking"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              47,
+              68
+            ],
+            [
+              96,
+              69
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              56
+            ],
+            [
+              34,
+              49
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              48,
+              76
+            ],
+            [
+              38,
+              92
+            ],
+            [
+              37,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              76
+            ],
+            [
+              112,
+              87
+            ],
+            [
+              97,
+              103
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              64
+            ],
+            [
+              123,
+              50
+            ],
+            [
+              122,
+              38
+            ],
+            [
+              116,
+              35
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "90dce1a3630a2f42b67bf1917345f7252431ec8bbff3089d66bc8c7e7d12467b",
+      "neutral_sha256": "aa01cd38df907bc2b29f94ec8394134c9131b51a8d3fede77434628848a5312b"
+    },
+    "fe3e28196bb052cc8c9f914bf063e401aa2f6fa7954fc70cb9f5bd9826e8e7c7": {
+      "label": "cat-012",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/fe3e28196bb052cc8c9f914bf063e401aa2f6fa7954fc70cb9f5bd9826e8e7c7.png",
+      "states": [
+        "walking"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              47,
+              68
+            ],
+            [
+              96,
+              69
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              56
+            ],
+            [
+              34,
+              49
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              47,
+              75
+            ],
+            [
+              22,
+              106
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              76
+            ],
+            [
+              125,
+              106
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              64
+            ],
+            [
+              123,
+              50
+            ],
+            [
+              122,
+              38
+            ],
+            [
+              116,
+              35
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "9306f39ef14708b3e36f69c6b862cd51802eeebfbc6ab25b009c7de1200b4f30",
+      "neutral_sha256": "245dc8aad321036a20a76e2b0e1761c78408d8fd35143910b98dcd3e185440c1"
+    },
+    "b381e5ed545ddd6f0f01655f4dbd0b3fa68e55e1347df36ffa6fba2784d84d94": {
+      "label": "cat-013",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/b381e5ed545ddd6f0f01655f4dbd0b3fa68e55e1347df36ffa6fba2784d84d94.png",
+      "states": [
+        "walking"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              47,
+              68
+            ],
+            [
+              96,
+              69
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              56
+            ],
+            [
+              34,
+              49
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              48,
+              76
+            ],
+            [
+              41,
+              85
+            ],
+            [
+              42,
+              106
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              76
+            ],
+            [
+              114,
+              105
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              64
+            ],
+            [
+              123,
+              50
+            ],
+            [
+              122,
+              38
+            ],
+            [
+              116,
+              35
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "6d6d46f780419e736cda4d0a1f9a2d7742ec5b2cd1b75f51140bcb290979eb46",
+      "neutral_sha256": "49c014b9cca9969d6a5f827dae2d4687f5a44c118037499b56895d3d41cc3b47"
+    },
+    "33a6b0e45c8fd5022bace41d3ee271a20f42cf8538418df6350a5a51725334cd": {
+      "label": "cat-014",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/33a6b0e45c8fd5022bace41d3ee271a20f42cf8538418df6350a5a51725334cd.png",
+      "states": [
+        "window_peeking"
+      ],
+      "regions": [
+        {
+          "part": "head",
+          "path": [
+            [
+              58,
+              21
+            ],
+            [
+              72,
+              10
+            ]
+          ],
+          "radius": 15,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.1
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              62,
+              25
+            ],
+            [
+              62,
+              31
+            ]
+          ],
+          "radius": 5,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              78,
+              26
+            ],
+            [
+              78,
+              31
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "body",
+          "path": [
+            [
+              72,
+              24
+            ],
+            [
+              72,
+              31
+            ]
+          ],
+          "radius": 12,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "35f7f42c1b24bc886856f56a54eca2260d8b4366e7a4d3505e6104079c3f045c",
+      "neutral_sha256": "3f6c277950d7fb24117066b280c638ec0f32f60fd4f376c80028590edcb5fda3"
+    },
+    "db70f6fecc5cbde6e882cea848b8ad31a9537617102026c195435106306e2f8e": {
+      "label": "cat-015",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/db70f6fecc5cbde6e882cea848b8ad31a9537617102026c195435106306e2f8e.png",
+      "states": [
+        "window_peeking"
+      ],
+      "regions": [
+        {
+          "part": "head",
+          "path": [
+            [
+              58,
+              21
+            ],
+            [
+              72,
+              10
+            ]
+          ],
+          "radius": 15,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.1
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              62,
+              25
+            ],
+            [
+              62,
+              31
+            ]
+          ],
+          "radius": 5,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              78,
+              26
+            ],
+            [
+              78,
+              31
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "body",
+          "path": [
+            [
+              72,
+              24
+            ],
+            [
+              72,
+              31
+            ]
+          ],
+          "radius": 12,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "67c33d074feb1bf40ae52e4d930fd50da6352c58d8139f587db3210136ebd3d1",
+      "neutral_sha256": "a56cb36a8b466e39b13495c6cbd4512a306166f0298ab5deea425d69f015018d"
+    },
+    "fd5744f892598b524136b81aef74f21021a38a25cf070bb213b7f6aabe5edc24": {
+      "label": "cat-016",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/fd5744f892598b524136b81aef74f21021a38a25cf070bb213b7f6aabe5edc24.png",
+      "states": [
+        "purring"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              73,
+              62
+            ],
+            [
+              77,
+              94
+            ]
+          ],
+          "radius": 21,
+          "side": "front-split",
+          "mode": "front",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              53,
+              48
+            ],
+            [
+              66,
+              39
+            ]
+          ],
+          "radius": 16,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.18
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              69,
+              73
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              80,
+              74
+            ],
+            [
+              76,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              89,
+              87
+            ],
+            [
+              90,
+              104
+            ]
+          ],
+          "radius": 9,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              90,
+              102
+            ],
+            [
+              68,
+              105
+            ],
+            [
+              55,
+              103
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "c97ff0d021df8c3007ced18fa0c7383c87e3e96eb87478af5123e66b209e7a24",
+      "neutral_sha256": "037e20fc9fe6555763f0c2279a5e11406ab454abe8e63354aa8a5dc05490ece8"
+    },
+    "45a18c21e135281c72dfb70f1726468a3647a00cbf9b308e8f0619ecca6b7a4b": {
+      "label": "cat-017",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/45a18c21e135281c72dfb70f1726468a3647a00cbf9b308e8f0619ecca6b7a4b.png",
+      "states": [
+        "purring"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              73,
+              62
+            ],
+            [
+              77,
+              94
+            ]
+          ],
+          "radius": 21,
+          "side": "front-split",
+          "mode": "front",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              53,
+              48
+            ],
+            [
+              66,
+              39
+            ]
+          ],
+          "radius": 16,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.18
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              69,
+              73
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              80,
+              74
+            ],
+            [
+              76,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              89,
+              87
+            ],
+            [
+              90,
+              104
+            ]
+          ],
+          "radius": 9,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              90,
+              102
+            ],
+            [
+              68,
+              105
+            ],
+            [
+              55,
+              103
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "8270bcd56b146324dc71333284d29f23a0912fbd834f84b26a1fa2efca0d2c51",
+      "neutral_sha256": "1dbcba6aad311ecde66d81e252f005b0fba37d6bb6704422adeed989ea124734"
+    },
+    "3d356f22aeec8506411eda57401765c902921784f22c117c4ede99a06fd10dca": {
+      "label": "cat-018",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/3d356f22aeec8506411eda57401765c902921784f22c117c4ede99a06fd10dca.png",
+      "states": [
+        "standing",
+        "landing",
+        "settling",
+        "takeoff"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              47,
+              68
+            ],
+            [
+              96,
+              69
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              56
+            ],
+            [
+              34,
+              49
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              49,
+              75
+            ],
+            [
+              47,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              99,
+              76
+            ],
+            [
+              113,
+              105
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              64
+            ],
+            [
+              123,
+              50
+            ],
+            [
+              122,
+              38
+            ],
+            [
+              116,
+              35
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "f5f2a8566784e4f5fc729d6e313993e8961798e68f2d4e1c74021edcaafa8c08",
+      "neutral_sha256": "c2a2d11130ddec7ba8b1095235c162da8ac3d3d069ec319555358f141bd2abe5"
+    },
+    "1031b5b4e5c6237b320d37893ff5ab88d746e2d8c3f16c0ac78fc55fc6bd30b9": {
+      "label": "cat-019",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/1031b5b4e5c6237b320d37893ff5ab88d746e2d8c3f16c0ac78fc55fc6bd30b9.png",
+      "states": [
+        "settling"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              49,
+              73
+            ],
+            [
+              99,
+              74
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              56
+            ],
+            [
+              34,
+              49
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              49,
+              79
+            ],
+            [
+              46,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              79
+            ],
+            [
+              110,
+              105
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              64
+            ],
+            [
+              123,
+              50
+            ],
+            [
+              122,
+              38
+            ],
+            [
+              116,
+              35
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "997fb6eab1beef2c2ba607099124b600aaf3ba70b1ffd262314904db00b3f9e1",
+      "neutral_sha256": "ccb9cf33a80235b700847e12dcf8784f9f2434d602843494681437d8e0d00c8a"
+    },
+    "fa947f84e0f1457be183f8075d6964931fe7a92214c37f6314d514733c4f4774": {
+      "label": "cat-020",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/fa947f84e0f1457be183f8075d6964931fe7a92214c37f6314d514733c4f4774.png",
+      "states": [
+        "settling"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              49,
+              74
+            ],
+            [
+              79,
+              90
+            ]
+          ],
+          "radius": 23,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              24,
+              61
+            ],
+            [
+              36,
+              54
+            ]
+          ],
+          "radius": 15,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              49,
+              77
+            ],
+            [
+              44,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              82,
+              91
+            ],
+            [
+              68,
+              105
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              86,
+              102
+            ],
+            [
+              106,
+              106
+            ],
+            [
+              123,
+              99
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              78
+            ],
+            [
+              53,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "84f8f9dbcebc7d26484c71f2b72bddc87654a67b8c1cb5ce04d2d992526038c4",
+      "neutral_sha256": "6d184c39a72c4e5bbbbb19b253ab891bdd419701df28aa52ba9f83b4b9d4ee93"
+    },
+    "22587cb5714b3ac2fb787bb398141de74d8ab859daf5a31a779ccac29eb3ee71": {
+      "label": "cat-021",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/22587cb5714b3ac2fb787bb398141de74d8ab859daf5a31a779ccac29eb3ee71.png",
+      "states": [
+        "idle",
+        "settling"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              49,
+              74
+            ],
+            [
+              79,
+              90
+            ]
+          ],
+          "radius": 23,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              24,
+              61
+            ],
+            [
+              36,
+              54
+            ]
+          ],
+          "radius": 15,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              49,
+              77
+            ],
+            [
+              44,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              82,
+              91
+            ],
+            [
+              68,
+              105
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              86,
+              102
+            ],
+            [
+              106,
+              106
+            ],
+            [
+              123,
+              99
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              78
+            ],
+            [
+              53,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "774cc038c8a600bca2acd2755e46105e44d11cec58af345efd8fc3a548e421f3",
+      "neutral_sha256": "363f883534296c52e78fc96b4700cd2ed4b1e570ed6114741c8ec385ba72e6f0"
+    },
+    "1280226f6955c0f3e60891bb7284be61f1b763a96a8f619014d4a5f8e269a268": {
+      "label": "cat-022",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/1280226f6955c0f3e60891bb7284be61f1b763a96a8f619014d4a5f8e269a268.png",
+      "states": [
+        "takeoff"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              49,
+              73
+            ],
+            [
+              99,
+              74
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              56
+            ],
+            [
+              34,
+              49
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              53,
+              77
+            ],
+            [
+              52,
+              106
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              101,
+              78
+            ],
+            [
+              92,
+              104
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              64
+            ],
+            [
+              123,
+              50
+            ],
+            [
+              122,
+              38
+            ],
+            [
+              116,
+              35
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "0b3dbacec1b61b457520c34895140a91c2734411c5eb5a0f071659db3ae6a63a",
+      "neutral_sha256": "2b6fac75e5728234c4b8487efbb0c54ca35a4823fa44d7a5be5ae721c622a33f"
+    },
+    "37c488c686633b6d1c1a74a0d3ec35c2ba9331cc956119429e9c0a4fcd671de9": {
+      "label": "cat-023",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/37c488c686633b6d1c1a74a0d3ec35c2ba9331cc956119429e9c0a4fcd671de9.png",
+      "states": [
+        "landing"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              50,
+              85
+            ],
+            [
+              98,
+              85
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              87
+            ],
+            [
+              34,
+              80
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              49,
+              89
+            ],
+            [
+              35,
+              106
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              101,
+              87
+            ],
+            [
+              96,
+              106
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              113,
+              86
+            ],
+            [
+              131,
+              99
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        }
+      ],
+      "pads": [],
+      "map_sha256": "ffa32ed5eee9a65187e787819386999403d947792f62331d4a30fab97ac197d0",
+      "neutral_sha256": "c551f098a86632f773ed16b8581b20118a66e59ed4607615a8eb57b9f7aaf496"
+    },
+    "42cf96f65bb497a2d85a2af216e72a25a5df1167611f25324dd5b1a8a8781e1d": {
+      "label": "cat-024",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/42cf96f65bb497a2d85a2af216e72a25a5df1167611f25324dd5b1a8a8781e1d.png",
+      "states": [
+        "landing",
+        "takeoff"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              49,
+              73
+            ],
+            [
+              99,
+              74
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              56
+            ],
+            [
+              34,
+              49
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              50,
+              78
+            ],
+            [
+              46,
+              104
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              79
+            ],
+            [
+              94,
+              104
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              64
+            ],
+            [
+              123,
+              50
+            ],
+            [
+              122,
+              38
+            ],
+            [
+              116,
+              35
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "edb19758e2512a0ffe5a85c9259048a6d780e9a793e8ab27366550f8c61305a8",
+      "neutral_sha256": "38fb5489687a4394467c2dc23496bf6057c478a7d0c564ce75acfe8d35743f5e"
+    },
+    "41565fb5e59a6354fbb8bca2c037ed0d0ddc4818a4849db83c7cf152a667e6af": {
+      "label": "cat-025",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/41565fb5e59a6354fbb8bca2c037ed0d0ddc4818a4849db83c7cf152a667e6af.png",
+      "states": [
+        "running"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              49,
+              72
+            ],
+            [
+              99,
+              79
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              68
+            ],
+            [
+              34,
+              61
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              51,
+              76
+            ],
+            [
+              37,
+              86
+            ],
+            [
+              41,
+              92
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              98,
+              82
+            ],
+            [
+              120,
+              104
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              108,
+              75
+            ],
+            [
+              125,
+              66
+            ],
+            [
+              132,
+              57
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "c002546e8b21a4505633eec88ada90355a3d7faa664e3ffea647884e7f3d2f00",
+      "neutral_sha256": "62381cdc8d7f5b0a9f16648cfdf2bf077cb3a0869533811d84db7e161dda16d4"
+    },
+    "24b88eab39a8948b3b2e2171195bbd88675bf32302938a82037f08e39926de12": {
+      "label": "cat-026",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/24b88eab39a8948b3b2e2171195bbd88675bf32302938a82037f08e39926de12.png",
+      "states": [
+        "running"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              49,
+              64
+            ],
+            [
+              99,
+              71
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              60
+            ],
+            [
+              34,
+              53
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              46,
+              70
+            ],
+            [
+              20,
+              78
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              99,
+              73
+            ],
+            [
+              126,
+              87
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              108,
+              67
+            ],
+            [
+              125,
+              58
+            ],
+            [
+              132,
+              49
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "cd5dcc772cd391961c8b1e451d5d8506df70ec485377f58b13a535437ef7cab6",
+      "neutral_sha256": "929aa62ad27da61d5c9bbc6fc3e77b128fc6deaf4c439ecf1ed4cac7bf470163"
+    },
+    "0114c63d956f55153ca71914d6b7b625fbe3602948c7fc3fa2e10c8e5bf6760a": {
+      "label": "cat-027",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/0114c63d956f55153ca71914d6b7b625fbe3602948c7fc3fa2e10c8e5bf6760a.png",
+      "states": [
+        "running"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              47,
+              68
+            ],
+            [
+              96,
+              69
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              56
+            ],
+            [
+              34,
+              49
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              47,
+              76
+            ],
+            [
+              22,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              76
+            ],
+            [
+              124,
+              105
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              64
+            ],
+            [
+              123,
+              50
+            ],
+            [
+              122,
+              38
+            ],
+            [
+              116,
+              35
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "cd206f788fa56c65eb8a2180ac515fac7f47c200d6f2b496eeed15d07c06460e",
+      "neutral_sha256": "5a9f143358f49a8c5156b9a56b6bc38b1312d623c8ade0fa73bfa20de70e5001"
+    },
+    "0bd56a418ae227c80ff62d0db5b720507043ebaf859f392aec879d961cd6115d": {
+      "label": "cat-028",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/0bd56a418ae227c80ff62d0db5b720507043ebaf859f392aec879d961cd6115d.png",
+      "states": [
+        "running"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              49,
+              67
+            ],
+            [
+              99,
+              74
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              63
+            ],
+            [
+              34,
+              56
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              49,
+              75
+            ],
+            [
+              39,
+              85
+            ],
+            [
+              52,
+              91
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              99,
+              77
+            ],
+            [
+              102,
+              91
+            ],
+            [
+              92,
+              103
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              108,
+              70
+            ],
+            [
+              125,
+              61
+            ],
+            [
+              132,
+              52
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "24258c863dce7ec49fa6d7cd6a5d8ea7f6154c6b52d008d44e5e3bee5dbe7c97",
+      "neutral_sha256": "0fa4d21aaa1eb1c38aa712f3897338ceba43a0dec40fc0cce11e5a8639657dc5"
+    },
+    "b961c4ab7643fc29f35c1578e28f29991fb557af2adb43a7715af68a324a5166": {
+      "label": "cat-029",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/b961c4ab7643fc29f35c1578e28f29991fb557af2adb43a7715af68a324a5166.png",
+      "states": [
+        "sleeping",
+        "belly"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              50,
+              94
+            ],
+            [
+              98,
+              94
+            ]
+          ],
+          "radius": 17,
+          "side": "left",
+          "mode": "front",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              19,
+              97
+            ],
+            [
+              32,
+              91
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              50,
+              89
+            ],
+            [
+              58,
+              80
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              92
+            ],
+            [
+              105,
+              82
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              113,
+              99
+            ],
+            [
+              132,
+              91
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              57,
+              94
+            ],
+            [
+              50,
+              103
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.03
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              109,
+              96
+            ],
+            [
+              108,
+              106
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.03
+        }
+      ],
+      "pads": [
+        [
+          58,
+          80,
+          2.3
+        ],
+        [
+          105,
+          82,
+          2.3
+        ]
+      ],
+      "map_sha256": "0faae9c95e8971197ff65e204cc44bb0eac75f8cdfb4c304b19e5c7af7235506",
+      "neutral_sha256": "9b67ceee942e835702302a3e550d29d890939ae57c8c597a67d77bd5b5b06028"
+    },
+    "1d46b89b5bae6ef9a699f009b3ad6e4a91b8d71b465d257a812b175939c9d0f1": {
+      "label": "cat-030",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/1d46b89b5bae6ef9a699f009b3ad6e4a91b8d71b465d257a812b175939c9d0f1.png",
+      "states": [
+        "swatting"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              50,
+              94
+            ],
+            [
+              98,
+              94
+            ]
+          ],
+          "radius": 17,
+          "side": "left",
+          "mode": "front",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              19,
+              97
+            ],
+            [
+              32,
+              91
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              43,
+              88
+            ],
+            [
+              20,
+              62
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              92
+            ],
+            [
+              105,
+              82
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              113,
+              99
+            ],
+            [
+              132,
+              91
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              57,
+              94
+            ],
+            [
+              50,
+              103
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.03
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              109,
+              96
+            ],
+            [
+              108,
+              106
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.03
+        }
+      ],
+      "pads": [
+        [
+          20,
+          62,
+          2.3
+        ],
+        [
+          105,
+          82,
+          2.3
+        ]
+      ],
+      "map_sha256": "71dc5e1f0f4114193ccfc3497356fa1ca3766bf7fae3ce26c77408e2077627c5",
+      "neutral_sha256": "3de0cfab7fef116a3f55e7f89de5b9dc50f1798634a2967f93cd9d4beb7f1900"
+    },
+    "0b0e1446db1f44506e425aa06f3d6f2506ab428d5f6078a36ae02c23af979fb6": {
+      "label": "cat-031",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/0b0e1446db1f44506e425aa06f3d6f2506ab428d5f6078a36ae02c23af979fb6.png",
+      "states": [
+        "resting"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              50,
+              94
+            ],
+            [
+              98,
+              94
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              96
+            ],
+            [
+              34,
+              89
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              49,
+              98
+            ],
+            [
+              35,
+              106
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              101,
+              96
+            ],
+            [
+              96,
+              106
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              113,
+              95
+            ],
+            [
+              131,
+              107
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        }
+      ],
+      "pads": [],
+      "map_sha256": "25e9becc5aacce059ae0ae729fd4ea34adc1d6a8fd121600b4ce9474f7869d51",
+      "neutral_sha256": "108f772f2d2dbcb1a176da057f13d8fb3c04367c35d81aa25b54eeeffdbb0d48"
+    },
+    "a56a5907f67f7ec7e8dfe8a0889215fe7f42c69d501a15c7b673daf6fb51ece2": {
+      "label": "cat-032",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/a56a5907f67f7ec7e8dfe8a0889215fe7f42c69d501a15c7b673daf6fb51ece2.png",
+      "states": [
+        "play_crouch"
+      ],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              51,
+              91
+            ],
+            [
+              98,
+              83
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              96
+            ],
+            [
+              34,
+              89
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              49,
+              98
+            ],
+            [
+              35,
+              106
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              101,
+              96
+            ],
+            [
+              96,
+              106
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              88
+            ],
+            [
+              129,
+              92
+            ],
+            [
+              136,
+              85
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        }
+      ],
+      "pads": [],
+      "map_sha256": "23566eb73bc8f4589ae0709df43ea80fd27f2472b5248ca0e36c52a724378683",
+      "neutral_sha256": "713b4b3a058fe01716c92341901d40f08dede1c928d437efc143b41f20dbd722"
+    },
+    "08e63211abc9a24a6121a257d41eeaad9476ac8b03a65f3c43ca2fe8f378899d": {
+      "label": "cat-033",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/08e63211abc9a24a6121a257d41eeaad9476ac8b03a65f3c43ca2fe8f378899d.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              50,
+              94
+            ],
+            [
+              98,
+              94
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              96
+            ],
+            [
+              34,
+              89
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              49,
+              98
+            ],
+            [
+              35,
+              106
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              101,
+              96
+            ],
+            [
+              96,
+              106
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              113,
+              95
+            ],
+            [
+              131,
+              99
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        }
+      ],
+      "pads": [],
+      "map_sha256": "1954ff716e2ac103c8b24f78dd0c7eda1d41150f3f25d006da71afb7378b1344",
+      "neutral_sha256": "4e4384a3928d3fb4e29b9d34b63a35f96b550a73a594ad6be553b49f16f9ddf8"
+    },
+    "f0e96cd577b9fd8cf9e073f778eb162ecd981f67b5f32dcecfdea176bfbdf377": {
+      "label": "cat-034",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/f0e96cd577b9fd8cf9e073f778eb162ecd981f67b5f32dcecfdea176bfbdf377.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              50,
+              85
+            ],
+            [
+              103,
+              86
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              22,
+              72
+            ],
+            [
+              35,
+              65
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              48,
+              86
+            ],
+            [
+              44,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              91
+            ],
+            [
+              95,
+              105
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              84
+            ],
+            [
+              128,
+              83
+            ],
+            [
+              132,
+              70
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "38e3cc753bdfb17e40b48e8e8cabea878c19b0379ffbfdc61f7acdb75497da23",
+      "neutral_sha256": "78ae95fa551ce9e015deb54544510d10c3e9cd06792518f8268fecfae52a320b"
+    },
+    "b0d5af870f8527749bd7920db9f5c4edd10d1e06dc6f9fa3571994d446992482": {
+      "label": "cat-035",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/b0d5af870f8527749bd7920db9f5c4edd10d1e06dc6f9fa3571994d446992482.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              50,
+              75
+            ],
+            [
+              101,
+              77
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              22,
+              62
+            ],
+            [
+              35,
+              55
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              49,
+              78
+            ],
+            [
+              45,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              101,
+              80
+            ],
+            [
+              112,
+              106
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              113,
+              72
+            ],
+            [
+              128,
+              61
+            ],
+            [
+              128,
+              50
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              54,
+              76
+            ],
+            [
+              64,
+              105
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              95,
+              76
+            ],
+            [
+              85,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "06c4650b9e8535a7f297227741ff6784a23dc671782c05b34c738d5db22c4a0e",
+      "neutral_sha256": "5e24bc4aafcd782bb37121e246a92a40ebeecd85f2c263131067c8cf16ead41f"
+    },
+    "0daa4a86a7d27a14858ca0e263cf8d2041c8c035e1cb8ac26bb61b024705e899": {
+      "label": "cat-036",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/0daa4a86a7d27a14858ca0e263cf8d2041c8c035e1cb8ac26bb61b024705e899.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              50,
+              94
+            ],
+            [
+              98,
+              94
+            ]
+          ],
+          "radius": 17,
+          "side": "left",
+          "mode": "front",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              19,
+              97
+            ],
+            [
+              32,
+              91
+            ]
+          ],
+          "radius": 14,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              50,
+              89
+            ],
+            [
+              58,
+              80
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              100,
+              92
+            ],
+            [
+              105,
+              82
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              113,
+              99
+            ],
+            [
+              132,
+              91
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              57,
+              94
+            ],
+            [
+              50,
+              103
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.03
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              109,
+              96
+            ],
+            [
+              108,
+              106
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.03
+        }
+      ],
+      "pads": [
+        [
+          58,
+          80,
+          2.3
+        ],
+        [
+          105,
+          82,
+          2.3
+        ]
+      ],
+      "map_sha256": "c00b433aff85e948f103e4a78b62e31ee1972270e90f5228623cbc39ab4581b0",
+      "neutral_sha256": "cc94b16d77984abcea1bc6a5c093b75aaa8faa8e0e8b5dc1ab14cd6071a8960c"
+    },
+    "e80c3c8fc2c2154a5c99ce1f6cd0bbc3518a826c3cfe4d7f089515ac97beeca6": {
+      "label": "cat-037",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/e80c3c8fc2c2154a5c99ce1f6cd0bbc3518a826c3cfe4d7f089515ac97beeca6.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              50,
+              94
+            ],
+            [
+              98,
+              94
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              96
+            ],
+            [
+              34,
+              89
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              49,
+              98
+            ],
+            [
+              35,
+              106
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              101,
+              96
+            ],
+            [
+              96,
+              106
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              113,
+              95
+            ],
+            [
+              131,
+              99
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        }
+      ],
+      "pads": [],
+      "map_sha256": "d2aac5de0927d314e088646f656273887fbfc8d17a62e61f9edec98eac663dc9",
+      "neutral_sha256": "a020cae4a27e33e6333919421b480087d0b74c077f8a71b498382ab86b961352"
+    },
+    "b1e777bfd9160974e635e97f7e2c4a098ff10bb0e4c2226e93a2c1378e7df27d": {
+      "label": "cat-038",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/b1e777bfd9160974e635e97f7e2c4a098ff10bb0e4c2226e93a2c1378e7df27d.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              50,
+              94
+            ],
+            [
+              98,
+              94
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              21,
+              96
+            ],
+            [
+              34,
+              89
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              49,
+              98
+            ],
+            [
+              35,
+              106
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              101,
+              96
+            ],
+            [
+              96,
+              106
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              113,
+              95
+            ],
+            [
+              131,
+              99
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        }
+      ],
+      "pads": [],
+      "map_sha256": "f77865c3ee1fed5889879c4f7571e0b8cb8d747852a1a6650ef684c779f9882f",
+      "neutral_sha256": "cd3b25c1d24069464e6cac53b33c8095577303788edee30164f2457952c6e5d9"
+    },
+    "65b0b743fbbc5ad87ef0e7b94d4f1ae2d47d4556a765328d5f926713d6ec0e0b": {
+      "label": "tail",
+      "size": [
+        206,
+        360
+      ],
+      "dpr": 1.0,
+      "neutral_file": "black-coat/65b0b743fbbc5ad87ef0e7b94d4f1ae2d47d4556a765328d5f926713d6ec0e0b.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "tail",
+          "path": [
+            [
+              106,
+              359
+            ],
+            [
+              135,
+              280
+            ],
+            [
+              145,
+              186
+            ],
+            [
+              112,
+              92
+            ],
+            [
+              43,
+              37
+            ]
+          ],
+          "radius": 39,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "a634be2c723448479bdc2dcca13a5444b6c416212001c65372e8f858803a20b7",
+      "neutral_sha256": "7b3462845fa4f077993183c4fae8d43242378016762a86385ca46f2574ba1cff"
+    },
+    "356d55977311f87d03bb15fb8a224f18476f10ca1b59007de8f79e478e14b013": {
+      "label": "rear",
+      "size": [
+        288,
+        336
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/356d55977311f87d03bb15fb8a224f18476f10ca1b59007de8f79e478e14b013.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              74,
+              61
+            ],
+            [
+              74,
+              105
+            ]
+          ],
+          "radius": 25,
+          "side": "rear-split",
+          "mode": "back",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              74,
+              47
+            ],
+            [
+              73,
+              28
+            ]
+          ],
+          "radius": 14,
+          "side": "rear-split",
+          "mode": "back",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              74,
+              111
+            ],
+            [
+              75,
+              137
+            ],
+            [
+              73,
+              154
+            ],
+            [
+              66,
+              161
+            ]
+          ],
+          "radius": 7.5,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              61,
+              98
+            ],
+            [
+              61,
+              111
+            ]
+          ],
+          "radius": 9,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              87,
+              98
+            ],
+            [
+              88,
+              111
+            ]
+          ],
+          "radius": 9,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "c03979ac24b97f76b6e5cfa4f6f4811aed436d49dbefecf6ba0ff36762651584",
+      "neutral_sha256": "be302e8ce10a4059c15399fde6ba558c4e66bcc60edee3f92ad13306ce931e38"
+    },
+    "bcf0b870167347d5fae48f75231ab6dadd5947bc7f16e82502a1b86e913b7291": {
+      "label": "depth-away-0",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/bcf0b870167347d5fae48f75231ab6dadd5947bc7f16e82502a1b86e913b7291.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              96,
+              62
+            ],
+            [
+              63,
+              65
+            ]
+          ],
+          "radius": 18,
+          "side": "right",
+          "mode": "back-side",
+          "sign": -1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              117,
+              45
+            ],
+            [
+              108,
+              41
+            ]
+          ],
+          "radius": 12,
+          "side": "right",
+          "mode": "side",
+          "sign": -1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              97,
+              70
+            ],
+            [
+              107,
+              89
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              62,
+              75
+            ],
+            [
+              66,
+              100
+            ]
+          ],
+          "radius": 8,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              55,
+              58
+            ],
+            [
+              45,
+              44
+            ],
+            [
+              43,
+              34
+            ],
+            [
+              49,
+              30
+            ]
+          ],
+          "radius": 5.7,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              106,
+              66
+            ],
+            [
+              114,
+              90
+            ]
+          ],
+          "radius": 5,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              72,
+              74
+            ],
+            [
+              78,
+              96
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        }
+      ],
+      "pads": [],
+      "map_sha256": "d7cdc5dfecdfc6ce2b1404e242e41d6caff044986aab0f90aa67d6dda2e97780",
+      "neutral_sha256": "e897b85b1e17f174e9d002153ca352a341fed7911c29c27a414fec2dcd005f8a"
+    },
+    "c5b49e505f0dc4729b297b2e7dd92d9c697ca88d4e369e7ca76ff69c89617907": {
+      "label": "depth-away-1",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/c5b49e505f0dc4729b297b2e7dd92d9c697ca88d4e369e7ca76ff69c89617907.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              96,
+              62
+            ],
+            [
+              63,
+              65
+            ]
+          ],
+          "radius": 18,
+          "side": "right",
+          "mode": "back-side",
+          "sign": -1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              117,
+              45
+            ],
+            [
+              108,
+              41
+            ]
+          ],
+          "radius": 12,
+          "side": "right",
+          "mode": "side",
+          "sign": -1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              97,
+              70
+            ],
+            [
+              105,
+              97
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              62,
+              75
+            ],
+            [
+              58,
+              103
+            ]
+          ],
+          "radius": 8,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              55,
+              58
+            ],
+            [
+              45,
+              44
+            ],
+            [
+              43,
+              34
+            ],
+            [
+              49,
+              30
+            ]
+          ],
+          "radius": 5.7,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              106,
+              66
+            ],
+            [
+              114,
+              90
+            ]
+          ],
+          "radius": 5,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              72,
+              74
+            ],
+            [
+              78,
+              96
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        }
+      ],
+      "pads": [],
+      "map_sha256": "1b5abc115e11c15991a1c209df1b493d8dc9599e50abd0bc88b3f557a36b1973",
+      "neutral_sha256": "d434f3b0fd799d8821055d8601b60db3edfe6ffe67ff5b275d53592003e6d3b0"
+    },
+    "849d6f604f026281bc6d00fbe2c07a89a6344568416fb8381f0bb4f8cffe119e": {
+      "label": "depth-away-2",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/849d6f604f026281bc6d00fbe2c07a89a6344568416fb8381f0bb4f8cffe119e.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              96,
+              62
+            ],
+            [
+              63,
+              65
+            ]
+          ],
+          "radius": 18,
+          "side": "right",
+          "mode": "back-side",
+          "sign": -1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              117,
+              45
+            ],
+            [
+              108,
+              41
+            ]
+          ],
+          "radius": 12,
+          "side": "right",
+          "mode": "side",
+          "sign": -1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              97,
+              70
+            ],
+            [
+              95,
+              98
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              62,
+              75
+            ],
+            [
+              50,
+              96
+            ]
+          ],
+          "radius": 8,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              55,
+              58
+            ],
+            [
+              45,
+              44
+            ],
+            [
+              43,
+              34
+            ],
+            [
+              49,
+              30
+            ]
+          ],
+          "radius": 5.7,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              106,
+              66
+            ],
+            [
+              114,
+              90
+            ]
+          ],
+          "radius": 5,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              72,
+              74
+            ],
+            [
+              78,
+              96
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        }
+      ],
+      "pads": [],
+      "map_sha256": "235ce0fe4cd71d50b61395b09cf445ce3359154cea0c280cb6812ef433413c9c",
+      "neutral_sha256": "594621a48997a2db4070460d2e3d87ad3716c8c73e9d5c698aa6ef916d053eb6"
+    },
+    "5274cb456be575318551d0a98296860aa0fd9807b5bad8f9c1a6261a089bc443": {
+      "label": "depth-away-3",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/5274cb456be575318551d0a98296860aa0fd9807b5bad8f9c1a6261a089bc443.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              96,
+              62
+            ],
+            [
+              63,
+              65
+            ]
+          ],
+          "radius": 18,
+          "side": "right",
+          "mode": "back-side",
+          "sign": -1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              117,
+              45
+            ],
+            [
+              108,
+              41
+            ]
+          ],
+          "radius": 12,
+          "side": "right",
+          "mode": "side",
+          "sign": -1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              97,
+              70
+            ],
+            [
+              99,
+              85
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              62,
+              75
+            ],
+            [
+              62,
+              98
+            ]
+          ],
+          "radius": 8,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              55,
+              58
+            ],
+            [
+              45,
+              44
+            ],
+            [
+              43,
+              34
+            ],
+            [
+              49,
+              30
+            ]
+          ],
+          "radius": 5.7,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              106,
+              66
+            ],
+            [
+              114,
+              90
+            ]
+          ],
+          "radius": 5,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              72,
+              74
+            ],
+            [
+              78,
+              96
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        }
+      ],
+      "pads": [],
+      "map_sha256": "57dcf5e52a3fd1590cf17512410b120518c22f08f05c3e290b14d628797c8e2c",
+      "neutral_sha256": "13e24c85f29967b7847f9ca8e73a65289cc5b0d3d5cf54196367526396328429"
+    },
+    "bffc08f4a54f74afc98a789944919f8df745b317d07f57e60b5d43deb09a291a": {
+      "label": "depth-away-4",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/bffc08f4a54f74afc98a789944919f8df745b317d07f57e60b5d43deb09a291a.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              96,
+              62
+            ],
+            [
+              63,
+              65
+            ]
+          ],
+          "radius": 18,
+          "side": "right",
+          "mode": "back-side",
+          "sign": -1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              117,
+              45
+            ],
+            [
+              108,
+              41
+            ]
+          ],
+          "radius": 12,
+          "side": "right",
+          "mode": "side",
+          "sign": -1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              97,
+              70
+            ],
+            [
+              107,
+              89
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              62,
+              75
+            ],
+            [
+              66,
+              100
+            ]
+          ],
+          "radius": 8,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              55,
+              58
+            ],
+            [
+              45,
+              44
+            ],
+            [
+              43,
+              34
+            ],
+            [
+              49,
+              30
+            ]
+          ],
+          "radius": 5.7,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              106,
+              66
+            ],
+            [
+              114,
+              90
+            ]
+          ],
+          "radius": 5,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              72,
+              74
+            ],
+            [
+              78,
+              96
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        }
+      ],
+      "pads": [],
+      "map_sha256": "f7877f04477fb541f40d6d72f461fafefd21e643d2658c4e2a193df441738123",
+      "neutral_sha256": "3652ecc1845b93dd48cf811b60858b0ecce769125a09e998b9eaedbad96d344c"
+    },
+    "a6001fb7646354c568053751ea44acf1c8d9a477786d41adc59c7fc5b09d1ee5": {
+      "label": "depth-away-5",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/a6001fb7646354c568053751ea44acf1c8d9a477786d41adc59c7fc5b09d1ee5.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              96,
+              62
+            ],
+            [
+              63,
+              65
+            ]
+          ],
+          "radius": 18,
+          "side": "right",
+          "mode": "back-side",
+          "sign": -1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              117,
+              45
+            ],
+            [
+              108,
+              41
+            ]
+          ],
+          "radius": 12,
+          "side": "right",
+          "mode": "side",
+          "sign": -1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              97,
+              70
+            ],
+            [
+              105,
+              97
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              62,
+              75
+            ],
+            [
+              58,
+              103
+            ]
+          ],
+          "radius": 8,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              55,
+              58
+            ],
+            [
+              45,
+              44
+            ],
+            [
+              43,
+              34
+            ],
+            [
+              49,
+              30
+            ]
+          ],
+          "radius": 5.7,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              106,
+              66
+            ],
+            [
+              114,
+              90
+            ]
+          ],
+          "radius": 5,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              72,
+              74
+            ],
+            [
+              78,
+              96
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        }
+      ],
+      "pads": [],
+      "map_sha256": "12df4b9dd650e3190ec643c96eae036eadd9b2c794cf81c95903319b7eee5658",
+      "neutral_sha256": "85019f3e083011b2a165590535731b0870eeb1b84a0caf5e6e62ddc6c6757dfd"
+    },
+    "2d908dbd390d561604f8a03249af62d9a3face305472a19b7df321f535b8a67c": {
+      "label": "depth-away-6",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/2d908dbd390d561604f8a03249af62d9a3face305472a19b7df321f535b8a67c.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              96,
+              62
+            ],
+            [
+              63,
+              65
+            ]
+          ],
+          "radius": 18,
+          "side": "right",
+          "mode": "back-side",
+          "sign": -1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              117,
+              45
+            ],
+            [
+              108,
+              41
+            ]
+          ],
+          "radius": 12,
+          "side": "right",
+          "mode": "side",
+          "sign": -1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              97,
+              70
+            ],
+            [
+              95,
+              98
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              62,
+              75
+            ],
+            [
+              50,
+              96
+            ]
+          ],
+          "radius": 8,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              55,
+              58
+            ],
+            [
+              45,
+              44
+            ],
+            [
+              43,
+              34
+            ],
+            [
+              49,
+              30
+            ]
+          ],
+          "radius": 5.7,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              106,
+              66
+            ],
+            [
+              114,
+              90
+            ]
+          ],
+          "radius": 5,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              72,
+              74
+            ],
+            [
+              78,
+              96
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        }
+      ],
+      "pads": [],
+      "map_sha256": "63feb52ef2b79575df31670dab7f92105acef4d7abecdcf8ff565a9bc9d8393f",
+      "neutral_sha256": "a9b1cd66f5e0b248eb74c6e11fdf8f8108f2ba51383c83dc0054af00b5fb19b6"
+    },
+    "03f1f23a8f50bf33b5ef52cee928b3e8dacbe9bd7b5491eee47a45e6cc2c205b": {
+      "label": "depth-away-7",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/03f1f23a8f50bf33b5ef52cee928b3e8dacbe9bd7b5491eee47a45e6cc2c205b.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              96,
+              62
+            ],
+            [
+              63,
+              65
+            ]
+          ],
+          "radius": 18,
+          "side": "right",
+          "mode": "back-side",
+          "sign": -1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              117,
+              45
+            ],
+            [
+              108,
+              41
+            ]
+          ],
+          "radius": 12,
+          "side": "right",
+          "mode": "side",
+          "sign": -1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              97,
+              70
+            ],
+            [
+              99,
+              85
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              62,
+              75
+            ],
+            [
+              62,
+              98
+            ]
+          ],
+          "radius": 8,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              55,
+              58
+            ],
+            [
+              45,
+              44
+            ],
+            [
+              43,
+              34
+            ],
+            [
+              49,
+              30
+            ]
+          ],
+          "radius": 5.7,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              106,
+              66
+            ],
+            [
+              114,
+              90
+            ]
+          ],
+          "radius": 5,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              72,
+              74
+            ],
+            [
+              78,
+              96
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.1
+        }
+      ],
+      "pads": [],
+      "map_sha256": "25ca7b1df1ad972af150b8f6f916594aeb7cb0e3404ae7db75d75ffd81cb5bc0",
+      "neutral_sha256": "5783ee4a4b8631993ea2d5a29918f3bb2097a8c5fd4f0028022f15de14020513"
+    },
+    "fac54ecfc4c5971b90db0ccaa45ff0590e4cacae8eec0a232ce1c7fdbf462920": {
+      "label": "depth-toward-0",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/fac54ecfc4c5971b90db0ccaa45ff0590e4cacae8eec0a232ce1c7fdbf462920.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              66,
+              59
+            ],
+            [
+              87,
+              69
+            ]
+          ],
+          "radius": 17,
+          "side": "left",
+          "mode": "front-side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              45,
+              49
+            ],
+            [
+              58,
+              38
+            ]
+          ],
+          "radius": 16,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              57,
+              68
+            ],
+            [
+              45,
+              105
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              92,
+              73
+            ],
+            [
+              99,
+              94
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              94,
+              60
+            ],
+            [
+              106,
+              47
+            ],
+            [
+              109,
+              32
+            ],
+            [
+              104,
+              28
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              70,
+              71
+            ],
+            [
+              66,
+              101
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              83,
+              76
+            ],
+            [
+              83,
+              94
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "36573ba62c20c30cdcdc2a3ecadfd4b5ec58c19ce26b273ce6c021a932431223",
+      "neutral_sha256": "fbed2a69834bf9237335ff550709c3cd25762895ffffda34d7f1b6f8f0ff6d5d"
+    },
+    "802df0954eb8d0b45931b52818623a6788c7f10ed1981f9c1a1dfaae23db254c": {
+      "label": "depth-toward-1",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/802df0954eb8d0b45931b52818623a6788c7f10ed1981f9c1a1dfaae23db254c.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              66,
+              59
+            ],
+            [
+              87,
+              69
+            ]
+          ],
+          "radius": 17,
+          "side": "left",
+          "mode": "front-side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              45,
+              49
+            ],
+            [
+              58,
+              38
+            ]
+          ],
+          "radius": 16,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              57,
+              68
+            ],
+            [
+              54,
+              103
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              92,
+              73
+            ],
+            [
+              99,
+              92
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              94,
+              60
+            ],
+            [
+              106,
+              47
+            ],
+            [
+              109,
+              32
+            ],
+            [
+              104,
+              28
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              70,
+              71
+            ],
+            [
+              66,
+              101
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              83,
+              76
+            ],
+            [
+              83,
+              94
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "1f2f173b83e19145bdd78c51d2a129277ce447f5784a20fc1b2d9be9548b8fc2",
+      "neutral_sha256": "355700a5c4a664f980911967ed253b576c6f69663dc9561ad85f780983a4b01e"
+    },
+    "4746f85ce89f21a6d5e200e2dbcdf6e75fb246f6e4ef8116653bcde7069f49ab": {
+      "label": "depth-toward-2",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/4746f85ce89f21a6d5e200e2dbcdf6e75fb246f6e4ef8116653bcde7069f49ab.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              66,
+              59
+            ],
+            [
+              87,
+              69
+            ]
+          ],
+          "radius": 17,
+          "side": "left",
+          "mode": "front-side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              45,
+              49
+            ],
+            [
+              58,
+              38
+            ]
+          ],
+          "radius": 16,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              57,
+              68
+            ],
+            [
+              46,
+              101
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              92,
+              73
+            ],
+            [
+              98,
+              96
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              94,
+              60
+            ],
+            [
+              106,
+              47
+            ],
+            [
+              109,
+              32
+            ],
+            [
+              104,
+              28
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              70,
+              71
+            ],
+            [
+              66,
+              101
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              83,
+              76
+            ],
+            [
+              83,
+              94
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "4ca4f5c1858f0cb5b47186dff72f32a7c6243e391340dabadec44af364f0884b",
+      "neutral_sha256": "252b919d14ab5450daa7d90728c1973ef5f941c54c4112e4b734d3e638d093ad"
+    },
+    "0e8efc7b6a69a9cb36107e03514221b38de57e967c9db3ce9f7d132767647c1d": {
+      "label": "depth-toward-3",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/0e8efc7b6a69a9cb36107e03514221b38de57e967c9db3ce9f7d132767647c1d.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              66,
+              59
+            ],
+            [
+              87,
+              69
+            ]
+          ],
+          "radius": 17,
+          "side": "left",
+          "mode": "front-side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              45,
+              49
+            ],
+            [
+              58,
+              38
+            ]
+          ],
+          "radius": 16,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              57,
+              68
+            ],
+            [
+              48,
+              104
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              92,
+              73
+            ],
+            [
+              96,
+              93
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              94,
+              60
+            ],
+            [
+              106,
+              47
+            ],
+            [
+              109,
+              32
+            ],
+            [
+              104,
+              28
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              70,
+              71
+            ],
+            [
+              66,
+              101
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              83,
+              76
+            ],
+            [
+              83,
+              94
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.12
+        }
+      ],
+      "pads": [],
+      "map_sha256": "76133eca6a4240992194634136d945d30ff712af8b49c559abd7a2c2ea6e8d10",
+      "neutral_sha256": "33457eb9e9fa829ca05305c597b96f754eae8bcbf1d38ad6dff7233efc91bac0"
+    },
+    "37b7e2996c1bc9f138a74d668f7b1be2d0a1bed6d28a0f7774d893f585a78e78": {
+      "label": "depth-front-0",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "black-coat/37b7e2996c1bc9f138a74d668f7b1be2d0a1bed6d28a0f7774d893f585a78e78.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              74,
+              58
+            ],
+            [
+              77,
+              89
+            ]
+          ],
+          "radius": 19,
+          "side": "front-split",
+          "mode": "front",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              74,
+              51
+            ],
+            [
+              74,
+              35
+            ]
+          ],
+          "radius": 17,
+          "side": "front-split",
+          "mode": "front-head",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              65,
+              76
+            ],
+            [
+              64,
+              104
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              81,
+              76
+            ],
+            [
+              82,
+              104
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              88,
+              86
+            ],
+            [
+              92,
+              99
+            ]
+          ],
+          "radius": 7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              91,
+              78
+            ],
+            [
+              108,
+              66
+            ],
+            [
+              112,
+              43
+            ],
+            [
+              108,
+              34
+            ]
+          ],
+          "radius": 5,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "c2dda9bae918db74c518cda4e23f56cf492c8c4f889ce25763b39e1cc533053e",
+      "neutral_sha256": "bf585e8f634c88b744336bbc92f2fa5d7ff5e24d83cc97a45976ab7dce20b18a"
+    },
+    "088f93fdc9a01ca40c90356e9f53d78c3cfe4c9915bed8a490f0d5728aca51ae": {
+      "label": "parkour-jump_up-0",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "parkour/jump_up-00-black@2x.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              73,
+              50
+            ],
+            [
+              95,
+              78
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              55,
+              31
+            ],
+            [
+              65,
+              26
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              64,
+              43
+            ],
+            [
+              40,
+              18
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              97,
+              81
+            ],
+            [
+              113,
+              107
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              101,
+              79
+            ],
+            [
+              118,
+              92
+            ],
+            [
+              133,
+              99
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              66,
+              46
+            ],
+            [
+              48,
+              39
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.02
+        }
+      ],
+      "pads": [],
+      "map_sha256": "a94aafe179e55c16ed890117edf8f755213216368d0f62d5c3a72c2e96294f8d",
+      "neutral_sha256": "9dd839ff2d0f8ed45cf22bea571c9ca72e5f1b5186bd0a1ccd007eb2e9860113"
+    },
+    "d87734baa3b018ef5c89fcdc898de857f795cb6ba3435d0299e692f8fd9e0bc2": {
+      "label": "parkour-jump_up-1",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "parkour/jump_up-01-black@2x.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              69,
+              52
+            ],
+            [
+              87,
+              79
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              48,
+              31
+            ],
+            [
+              58,
+              27
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              59,
+              44
+            ],
+            [
+              37,
+              21
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              89,
+              80
+            ],
+            [
+              80,
+              92
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              97,
+              85
+            ],
+            [
+              117,
+              104
+            ],
+            [
+              134,
+              109
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              66,
+              46
+            ],
+            [
+              48,
+              39
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.02
+        }
+      ],
+      "pads": [],
+      "map_sha256": "f940b2e2718906bfd8b55b799a999a7269df6fcda3aea6694770c2c51959da64",
+      "neutral_sha256": "87c2fae1b414b190b74a8c27cd19fd36d44499d27edd5ea0dde44142ba5aa36a"
+    },
+    "d94120285acdae4282408310257df687c7cdb9b7c14bd4b07b267e47552a22d4": {
+      "label": "parkour-jump_down-0",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "parkour/jump_down-00-black@2x.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              67,
+              57
+            ],
+            [
+              105,
+              42
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              38,
+              65
+            ],
+            [
+              47,
+              57
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              55,
+              72
+            ],
+            [
+              35,
+              102
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              104,
+              47
+            ],
+            [
+              108,
+              68
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              43
+            ],
+            [
+              128,
+              27
+            ],
+            [
+              128,
+              11
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              66,
+              74
+            ],
+            [
+              45,
+              108
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "3a8fe3fad7154433897bb4f8a92fc489fa4af4deb7dabccb71d858589f3112ba",
+      "neutral_sha256": "19a749714d0f685889e6b65a8e45a897243bc213386d7d496a74b18f18df24b6"
+    },
+    "63f787c80e5eda895e98cfb6a025bc82d033686a4597586837b449cd681ed9c8": {
+      "label": "parkour-jump_down-1",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "parkour/jump_down-01-black@2x.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              67,
+              57
+            ],
+            [
+              105,
+              42
+            ]
+          ],
+          "radius": 18,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              38,
+              65
+            ],
+            [
+              47,
+              57
+            ]
+          ],
+          "radius": 13,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              55,
+              72
+            ],
+            [
+              38,
+              102
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              104,
+              47
+            ],
+            [
+              108,
+              68
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              112,
+              43
+            ],
+            [
+              128,
+              27
+            ],
+            [
+              128,
+              11
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              66,
+              74
+            ],
+            [
+              49,
+              108
+            ]
+          ],
+          "radius": 5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "762ea8a42fa5a7983e7556090136e2e0215105ffce332a52dddaaa193e805055",
+      "neutral_sha256": "4edbd050c320f0993307428fe9114212f52129919d39f7efc93389dffbbd91af"
+    },
+    "4c292c9866051e2a1cf6ce8c679a1ba531cc1c0ddef366be0321507461e859bf": {
+      "label": "parkour-climb-0",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "parkour/climb-00-black@2x.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              108,
+              45
+            ],
+            [
+              115,
+              68
+            ]
+          ],
+          "radius": 12,
+          "side": "left",
+          "mode": "front-side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              98,
+              28
+            ],
+            [
+              110,
+              25
+            ]
+          ],
+          "radius": 12,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              108,
+              44
+            ],
+            [
+              96,
+              37
+            ],
+            [
+              88,
+              22
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              113,
+              73
+            ],
+            [
+              105,
+              84
+            ],
+            [
+              92,
+              94
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              121,
+              76
+            ],
+            [
+              129,
+              90
+            ],
+            [
+              137,
+              90
+            ],
+            [
+              138,
+              82
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              107,
+              48
+            ],
+            [
+              89,
+              44
+            ]
+          ],
+          "radius": 4.5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              110,
+              67
+            ],
+            [
+              100,
+              73
+            ],
+            [
+              91,
+              68
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "337187f20318db4f6fac1b23c890778c78c9bed6d8a977d4a324b592104f63b6",
+      "neutral_sha256": "4d9809575ac3abc29c8e67875c1e46d2ac7dd5d2dbdb956a329fd703ac77e898"
+    },
+    "ab85b7e6491f10329cf47803a608b0f9beadbf636177197c21bde6956959d280": {
+      "label": "parkour-climb-1",
+      "size": [
+        288,
+        224
+      ],
+      "dpr": 2.0,
+      "neutral_file": "parkour/climb-01-black@2x.png",
+      "states": [],
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              108,
+              45
+            ],
+            [
+              115,
+              68
+            ]
+          ],
+          "radius": 12,
+          "side": "left",
+          "mode": "front-side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              98,
+              28
+            ],
+            [
+              110,
+              25
+            ]
+          ],
+          "radius": 12,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              108,
+              44
+            ],
+            [
+              96,
+              37
+            ],
+            [
+              88,
+              34
+            ]
+          ],
+          "radius": 6,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              113,
+              73
+            ],
+            [
+              105,
+              84
+            ],
+            [
+              92,
+              94
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0.08
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              121,
+              76
+            ],
+            [
+              129,
+              90
+            ],
+            [
+              137,
+              90
+            ],
+            [
+              138,
+              82
+            ]
+          ],
+          "radius": 5.7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": -0.14
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              107,
+              48
+            ],
+            [
+              89,
+              20
+            ]
+          ],
+          "radius": 4.5,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              110,
+              67
+            ],
+            [
+              100,
+              73
+            ],
+            [
+              91,
+              68
+            ]
+          ],
+          "radius": 6,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "b17f14c71159c0b484cb97dd3f1cccc65ce13ee9e3f69a3fdca5d46b90696b3d",
+      "neutral_sha256": "ca8e44e9c2f8c075099be59025aeb7bfa372319f8b8c0973ade6d36917aabc07"
+    }
+  }
+}
