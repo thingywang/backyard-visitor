@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "accepted": true,
+  "native_facing": -1,
+  "logical_size": [
+    144,
+    112
+  ],
+  "pixel_ratio": 2,
+  "render_scale": 0.15625,
+  "render_anchor": [
+    72,
+    108
+  ],
+  "cycle_seconds": 0.8,
+  "states": {
+    "walking": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "frames": [
+    {
+      "name": "near_front_contact",
+      "file": "locomotion-front-contact.png",
+      "width": 1536,
+      "height": 1024,
+      "content_bounds": [
+        107,
+        61,
+        1370,
+        912
+      ],
+      "foot_anchor": [
+        768,
+        973
+      ],
+      "near_front_paw": [
+        205,
+        950
+      ],
+      "near_hind_paw": [
+        1420,
+        950
+      ],
+      "source_generation": "exec-06f08e48-f23b-445e-bf48-cfd40cdb4bfb.png"
+    },
+    {
+      "name": "near_hind_passing",
+      "file": "locomotion-hind-passing.png",
+      "width": 1536,
+      "height": 1024,
+      "content_bounds": [
+        98,
+        60,
+        1385,
+        910
+      ],
+      "foot_anchor": [
+        768,
+        970
+      ],
+      "near_front_paw": [
+        455,
+        944
+      ],
+      "near_hind_paw": [
+        1164,
+        799
+      ],
+      "source_generation": "exec-35c834ad-da7f-453c-803c-16fde7c21383.png"
+    },
+    {
+      "name": "near_front_back_contact",
+      "file": "locomotion-back-contact.png",
+      "width": 1536,
+      "height": 1024,
+      "content_bounds": [
+        70,
+        58,
+        1408,
+        915
+      ],
+      "foot_anchor": [
+        768,
+        973
+      ],
+      "near_front_paw": [
+        677,
+        948
+      ],
+      "near_hind_paw": [
+        934,
+        947
+      ],
+      "source_generation": "exec-87ad8286-da32-4c03-b813-5b3da217f259.png"
+    },
+    {
+      "name": "near_front_passing",
+      "file": "locomotion-front-passing.png",
+      "width": 1536,
+      "height": 1024,
+      "content_bounds": [
+        97,
+        48,
+        1387,
+        920
+      ],
+      "foot_anchor": [
+        768,
+        968
+      ],
+      "near_front_paw": [
+        316,
+        800
+      ],
+      "near_hind_paw": [
+        1234,
+        946
+      ],
+      "source_generation": "exec-7a3fad7a-4fef-4c3b-bf50-252c26072bb7.png"
+    }
+  ],
+  "notes": "Four individually edited alternating limb key poses. Paw landmarks are approximate human inspection annotations, not animation rig data. Source-to-Retina scale is common to all images; only ground alignment varies by a few source pixels. Head and torso remain stable at desktop scale. No optical-flow or synthetic in-between frames. More detailed high-frame-rate locomotion remains future work."
+}

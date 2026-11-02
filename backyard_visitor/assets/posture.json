@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "accepted": true,
+  "logical_size": [
+    144,
+    112
+  ],
+  "pixel_ratio": 2,
+  "native_facing": -1,
+  "groups": {
+    "crouch_rise": {
+      "file": "posture.png",
+      "width": 1024,
+      "height": 1536,
+      "render_scale": 0.24,
+      "render_anchor": [
+        72,
+        108
+      ],
+      "transparent_fraction": 0.5856202443440756,
+      "frames": [
+        {
+          "name": "early_chest_lift",
+          "rect": [
+            0,
+            0,
+            1024,
+            470
+          ],
+          "content_bounds": [
+            31,
+            175,
+            970,
+            241
+          ],
+          "foot_anchor": [
+            480,
+            416
+          ],
+          "near_front_paw_approx": [
+            285,
+            416
+          ]
+        },
+        {
+          "name": "elbow_extension",
+          "rect": [
+            0,
+            470,
+            1024,
+            480
+          ],
+          "content_bounds": [
+            44,
+            55,
+            963,
+            412
+          ],
+          "foot_anchor": [
+            480,
+            467
+          ],
+          "near_front_paw_approx": [
+            285,
+            467
+          ]
+        },
+        {
+          "name": "near_standing",
+          "rect": [
+            0,
+            950,
+            1024,
+            586
+          ],
+          "content_bounds": [
+            46,
+            14,
+            961,
+            505
+          ],
+          "foot_anchor": [
+            480,
+            519
+          ],
+          "near_front_paw_approx": [
+            300,
+            519
+          ]
+        }
+      ]
+    },
+    "belly_roll": {
+      "file": "posture-belly.png",
+      "width": 1024,
+      "height": 1536,
+      "render_scale": 0.24,
+      "render_anchor": [
+        72,
+        108
+      ],
+      "transparent_fraction": 0.6166089375813802,
+      "frames": [
+        {
+          "name": "side_roll",
+          "rect": [
+            0,
+            0,
+            1024,
+            580
+          ],
+          "content_bounds": [
+            18,
+            219,
+            986,
+            295
+          ],
+          "foot_anchor": [
+            512,
+            514
+          ]
+        },
+        {
+          "name": "legs_tuck",
+          "rect": [
+            0,
+            580,
+            1024,
+            445
+          ],
+          "content_bounds": [
+            50,
+            66,
+            956,
+            313
+          ],
+          "foot_anchor": [
+            512,
+            379
+          ]
+        },
+        {
+          "name": "chest_contact",
+          "rect": [
+            0,
+            1025,
+            1024,
+            511
+          ],
+          "content_bounds": [
+            67,
+            66,
+            939,
+            294
+          ],
+          "foot_anchor": [
+            512,
+            360
+          ]
+        }
+      ]
+    }
+  },
+  "notes": "Each group contains only three generated intermediate poses. Existing ActivityArt/StandingArt endpoints remain unchanged. Common source scale; no mechanical body deformation or crossfade."
+}
