@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "kind": "backyard-visitor-depth-sprites",
+  "pixel_size": [
+    288,
+    224
+  ],
+  "display_size": [
+    144,
+    112
+  ],
+  "foot_anchor": [
+    72,
+    108
+  ],
+  "pixel_ratio": 2,
+  "counts": {
+    "away": 8,
+    "toward": 4,
+    "front": 1
+  },
+  "selection": "route gait phase only; route travel duration is not determined by artwork",
+  "frames": [
+    {
+      "kind": "away",
+      "index": 0,
+      "file": "away-00@2x.png",
+      "sha256": "981b1bdb8389a2f82a2d4f7f18c0aedb8859e9eaabc9bfad4935253a915ae3fc",
+      "source": "output/v09/depth-preview/four-leg-scene-v1/assets/frame-00@2x.png",
+      "source_index": 0
+    },
+    {
+      "kind": "away",
+      "index": 1,
+      "file": "away-01@2x.png",
+      "sha256": "3b9fe555fa78d81bb016feb3a048daf975fc8c9e129225ca231f410ff77a2250",
+      "source": "output/v09/depth-preview/four-leg-scene-v1/assets/frame-07@2x.png",
+      "source_index": 7
+    },
+    {
+      "kind": "away",
+      "index": 2,
+      "file": "away-02@2x.png",
+      "sha256": "ae1ff2b0e674cfeeec4078a9bb2cb05fcd7d00a018ef3f7da6e106346c97398f",
+      "source": "output/v09/depth-preview/four-leg-scene-v1/assets/frame-13@2x.png",
+      "source_index": 13
+    },
+    {
+      "kind": "away",
+      "index": 3,
+      "file": "away-03@2x.png",
+      "sha256": "1a132ac8f15ce69bd34adb1c36bee251fdb0014b18aa275d0f68606a5cd4e7a5",
+      "source": "output/v09/depth-preview/four-leg-scene-v1/assets/frame-20@2x.png",
+      "source_index": 20
+    },
+    {
+      "kind": "away",
+      "index": 4,
+      "file": "away-04@2x.png",
+      "sha256": "35b9d194af53c99139d7a9df7e64ae34b8f3c29a7dc7d274cef59a50a920c1ee",
+      "source": "output/v09/depth-preview/four-leg-scene-v1/assets/frame-26@2x.png",
+      "source_index": 26
+    },
+    {
+      "kind": "away",
+      "index": 5,
+      "file": "away-05@2x.png",
+      "sha256": "95efd89ebfb39636e5c1e70b08ee494ba6fb1c96a1c4ff5b2f9d08568471520a",
+      "source": "output/v09/depth-preview/four-leg-scene-v1/assets/frame-33@2x.png",
+      "source_index": 33
+    },
+    {
+      "kind": "away",
+      "index": 6,
+      "file": "away-06@2x.png",
+      "sha256": "06dcb0d8814c1e5800e0925fec89c74d47bf8ec8b3f6c547d80eca64db05bf78",
+      "source": "output/v09/depth-preview/four-leg-scene-v1/assets/frame-39@2x.png",
+      "source_index": 39
+    },
+    {
+      "kind": "away",
+      "index": 7,
+      "file": "away-07@2x.png",
+      "sha256": "73a10ed126d694008ae88979b39e187a3b730fd21c3657cc0eccdc43e864f70a",
+      "source": "output/v09/depth-preview/four-leg-scene-v1/assets/frame-46@2x.png",
+      "source_index": 46
+    },
+    {
+      "kind": "toward",
+      "index": 0,
+      "file": "toward-00@2x.png",
+      "sha256": "003aad575fcad9a0242e7e1571ed2ae46bbb96c430cd294766a1020e9283f8a3",
+      "source": "output/v09/depth-preview/simple-return-scene-v1/assets/toward-00.png",
+      "source_index": 0
+    },
+    {
+      "kind": "toward",
+      "index": 1,
+      "file": "toward-01@2x.png",
+      "sha256": "f7a71c97298cf862cd20066411cf877435ca25ba280378429043dab794813a4f",
+      "source": "output/v09/depth-preview/simple-return-scene-v1/assets/toward-01.png",
+      "source_index": 1
+    },
+    {
+      "kind": "toward",
+      "index": 2,
+      "file": "toward-02@2x.png",
+      "sha256": "9859a583b71666ebeaed944abdaab7718b440556b397577ea77dc055ea9be31a",
+      "source": "output/v09/depth-preview/simple-return-scene-v1/assets/toward-02.png",
+      "source_index": 2
+    },
+    {
+      "kind": "toward",
+      "index": 3,
+      "file": "toward-03@2x.png",
+      "sha256": "7b90267e2cfdec3ca9468c3d04bfcfc200032ee47ed2fb7c485d3341722d7847",
+      "source": "output/v09/depth-preview/simple-return-scene-v1/assets/toward-03.png",
+      "source_index": 3
+    },
+    {
+      "kind": "front",
+      "index": 0,
+      "file": "front-00@2x.png",
+      "sha256": "186079acf58895a263b8bc10cfaa5c41fb65b4b3a00159e28c5518051149ca75",
+      "source": "output/v09/depth-preview/simple-return-scene-v1/assets/front-turn.png",
+      "source_index": 0
+    }
+  ]
+}
