@@ -1,0 +1,191 @@
+{
+  "file": "cats.png",
+  "width": 1254,
+  "height": 1254,
+  "columns": 2,
+  "rows": 3,
+  "native_facing": -1,
+  "states": {
+    "walking": [
+      0,
+      1
+    ],
+    "idle": [
+      2
+    ],
+    "peeking": [
+      3
+    ],
+    "grooming": [
+      4
+    ],
+    "sleeping": [
+      5
+    ],
+    "eating": [
+      3,
+      4
+    ],
+    "carried": [
+      3
+    ]
+  },
+  "frames": [
+    {
+      "name": "walk_a",
+      "rect": [
+        0,
+        0,
+        627,
+        418
+      ],
+      "content_bounds": [
+        31,
+        13,
+        550,
+        393
+      ],
+      "foot_anchor": [
+        312,
+        406
+      ]
+    },
+    {
+      "name": "walk_b",
+      "rect": [
+        627,
+        0,
+        627,
+        418
+      ],
+      "content_bounds": [
+        39,
+        13,
+        543,
+        395
+      ],
+      "foot_anchor": [
+        312,
+        408
+      ]
+    },
+    {
+      "name": "sit",
+      "rect": [
+        0,
+        418,
+        627,
+        418
+      ],
+      "content_bounds": [
+        202,
+        6,
+        238,
+        395
+      ],
+      "foot_anchor": [
+        320,
+        401
+      ]
+    },
+    {
+      "name": "crouch",
+      "rect": [
+        627,
+        418,
+        627,
+        418
+      ],
+      "content_bounds": [
+        33,
+        143,
+        577,
+        218
+      ],
+      "foot_anchor": [
+        312,
+        361
+      ]
+    },
+    {
+      "name": "groom",
+      "rect": [
+        0,
+        836,
+        490,
+        418
+      ],
+      "content_bounds": [
+        115,
+        3,
+        319,
+        362
+      ],
+      "foot_anchor": [
+        280,
+        362
+      ]
+    },
+    {
+      "name": "sleep",
+      "rect": [
+        490,
+        836,
+        764,
+        418
+      ],
+      "content_bounds": [
+        59,
+        138,
+        687,
+        180
+      ],
+      "foot_anchor": [
+        385,
+        318
+      ]
+    }
+  ],
+  "reference_content_width": 550,
+  "reference_content_height": 395,
+  "alpha_bounds_threshold": 8,
+  "notes": "Frame rects are x,y,width,height. Content bounds and anchors are local to each rect. Prefer explicit rects: the sleeping pose extends left of the nominal column divider. Use one uniform scale for all poses and align foot anchors; do not independently stretch each frame. Eating and carried are honest temporary pose aliases, not dedicated animations.",
+  "rects": [
+    [
+      0,
+      0,
+      627,
+      418
+    ],
+    [
+      627,
+      0,
+      627,
+      418
+    ],
+    [
+      0,
+      418,
+      627,
+      418
+    ],
+    [
+      627,
+      418,
+      627,
+      418
+    ],
+    [
+      0,
+      836,
+      490,
+      418
+    ],
+    [
+      490,
+      836,
+      764,
+      418
+    ]
+  ]
+}

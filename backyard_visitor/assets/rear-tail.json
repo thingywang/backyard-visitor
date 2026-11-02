@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "accepted": true,
+  "file": "rear-tail-source.png",
+  "source_sha256": "9fd1046f5df5700c621bb8432189e4e5d1ccbc2f610f9f1488912e4cf84a7d8a",
+  "source_size": [
+    1024,
+    1536
+  ],
+  "seat_anchor": [
+    512,
+    950
+  ],
+  "render_scale": 0.1,
+  "render_anchor": [
+    72,
+    112
+  ],
+  "logical_size": [
+    144,
+    168
+  ],
+  "pixel_ratio": 2,
+  "rendition": "rear-tail@2x.png",
+  "generation": "exec-77adce96-e25c-4b53-92ae-366754c69b2d.png",
+  "notes": "One generated photographic rear seated pose with a hanging tail. Source pixels and alpha preserved. Qt rendition is only the app canvas scaling/anchoring; runtime tail rotation is a small procedural animation, not extra generated anatomical frames.",
+  "rendition_sha256": "160b99bf6b1713cc6f01be35c3ba975e205abb59c35b57322050889d8af36263"
+}

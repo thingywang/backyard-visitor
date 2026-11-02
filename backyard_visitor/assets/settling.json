@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "accepted": true,
+  "file": "settling.png",
+  "width": 887,
+  "height": 1774,
+  "native_facing": -1,
+  "logical_size": [
+    144,
+    112
+  ],
+  "pixel_ratio": 2,
+  "render_scale": 0.234375,
+  "render_anchor": [
+    52.3,
+    108
+  ],
+  "duration_seconds": 0.72,
+  "states": {
+    "settling": [
+      0,
+      1,
+      2
+    ],
+    "seated": [
+      2
+    ]
+  },
+  "frames": [
+    {
+      "name": "early_lower",
+      "rect": [
+        0,
+        0,
+        887,
+        591
+      ],
+      "content_bounds": [
+        28,
+        40,
+        840,
+        541
+      ],
+      "foot_anchor": [
+        280,
+        575
+      ]
+    },
+    {
+      "name": "half_sit",
+      "rect": [
+        0,
+        591,
+        887,
+        591
+      ],
+      "content_bounds": [
+        30,
+        35,
+        830,
+        529
+      ],
+      "foot_anchor": [
+        280,
+        563
+      ]
+    },
+    {
+      "name": "side_seated",
+      "rect": [
+        0,
+        1182,
+        887,
+        592
+      ],
+      "content_bounds": [
+        29,
+        18,
+        819,
+        527
+      ],
+      "foot_anchor": [
+        277,
+        544
+      ]
+    }
+  ],
+  "source_generation": "exec-ca6ee302-4c80-42e1-bba6-7f015297ba29.png",
+  "notes": "Three real anatomical lowering poses, sharing a near front-paw anchor. Existing StandingArt is the start pose, not part of these three frames. Endpoint remains seated; do not switch back to original frontal idle at the end. One uniform scale, no body squash, alpha blending or generated inbetweens. Three keys remain visibly discrete; tail drops mostly between first and second keys."
+}

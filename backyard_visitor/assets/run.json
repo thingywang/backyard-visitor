@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "accepted": true,
+  "file": "run.png",
+  "width": 1024,
+  "height": 1536,
+  "logical_size": [
+    144,
+    112
+  ],
+  "pixel_ratio": 2,
+  "native_facing": -1,
+  "render_scale": 0.26,
+  "render_anchor": [
+    72,
+    108
+  ],
+  "cycle_seconds": 0.48,
+  "states": {
+    "running": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "frames": [
+    {
+      "name": "hind_push",
+      "rect": [
+        0,
+        0,
+        1024,
+        416
+      ],
+      "content_bounds": [
+        138,
+        14,
+        749,
+        393
+      ],
+      "foot_anchor": [
+        512,
+        407
+      ],
+      "mouth_anchor": [
+        172,
+        181
+      ],
+      "contact": "hind"
+    },
+    {
+      "name": "extended_flight",
+      "rect": [
+        0,
+        416,
+        1024,
+        338
+      ],
+      "content_bounds": [
+        73,
+        12,
+        924,
+        315
+      ],
+      "foot_anchor": [
+        512,
+        407
+      ],
+      "mouth_anchor": [
+        161,
+        145
+      ],
+      "contact": "none"
+    },
+    {
+      "name": "fore_contact",
+      "rect": [
+        0,
+        754,
+        1024,
+        398
+      ],
+      "content_bounds": [
+        115,
+        13,
+        861,
+        374
+      ],
+      "foot_anchor": [
+        512,
+        387
+      ],
+      "mouth_anchor": [
+        153,
+        190
+      ],
+      "contact": "front"
+    },
+    {
+      "name": "gathered_flight",
+      "rect": [
+        0,
+        1152,
+        1024,
+        384
+      ],
+      "content_bounds": [
+        131,
+        5,
+        830,
+        364
+      ],
+      "foot_anchor": [
+        512,
+        415
+      ],
+      "mouth_anchor": [
+        168,
+        187
+      ],
+      "contact": "none"
+    }
+  ],
+  "notes": "Four actual run key poses. Virtual ground remains below the airborne feet. Common source scale, no body distortion or in-between imagery. Tail and fur differ slightly; near/far timing is approximate."
+}

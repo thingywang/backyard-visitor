@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "accepted": true,
+  "file": "standing.png",
+  "width": 1536,
+  "height": 1024,
+  "rect": [
+    0,
+    0,
+    1536,
+    1024
+  ],
+  "content_bounds": [
+    81,
+    50,
+    1419,
+    919
+  ],
+  "foot_anchor": [
+    768,
+    969
+  ],
+  "render_scale": 0.15625,
+  "render_anchor": [
+    72,
+    108
+  ],
+  "logical_size": [
+    144,
+    112
+  ],
+  "pixel_ratio": 2,
+  "native_facing": -1,
+  "source_generation": "exec-a3576388-8d87-4d88-b66d-59a7be56092a.png",
+  "notes": "One real standing key pose edited from locomotion-front-contact. Same physical scale and ground anchor as walking. Small photographic head/fur differences remain; not a bending or landing sequence."
+}
