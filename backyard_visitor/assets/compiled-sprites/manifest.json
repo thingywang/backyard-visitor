@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "kind": "backyard-visitor-compiled-sprite-cache",
+  "created_at": "2026-11-02T02:22:19.383447+00:00",
+  "source_fingerprints": {
+    "files": {
+      "backyard_visitor/art.py": "85ad945c9b3c30bbcac5a324fed8e9353a623c3d73531379a496dcc7107121c6",
+      "backyard_visitor/assets/sprites.json": "c7e088ea80e1f0a304c5504b05208c26dd98e2c97067eb3e6124e20df7068cbf",
+      "backyard_visitor/assets/cats.png": "28c40896ea59d44b23c6e716cf00cdbb0cb4ec30874ffe660ef2e55e581a09b1",
+      "backyard_visitor/assets/extra.json": "91b6f5f703825b7f2b2edb2cf83921a6e92ac5988630e061868ec8717b817987",
+      "backyard_visitor/assets/extra.png": "2764da1d9057319f7f548112b4419857a100168b84d0a27658c5700e9b81536e",
+      "backyard_visitor/assets/interactions.json": "b80782d7b969e321a5b79c0af33e40be030feaa379d3a5bb0bb8cbc8181953db",
+      "backyard_visitor/assets/interactions.png": "694fa462c50e0cc132cd2f95f8ab265abb68a5a86dd13cab33a6ce1da50d2864",
+      "backyard_visitor/assets/locomotion.json": "7cece64472dc16486000f1a0f6e7ec1266a76e083e48b66f01eb4bf652dc3d25",
+      "backyard_visitor/assets/locomotion-front-contact.png": "a9bb40981216f247c8daa773347d9e9870581f5fc0d4878926a929a9d8932536",
+      "backyard_visitor/assets/locomotion-hind-passing.png": "7ef98e987d1334c85b75f63aeca3c68645bfffb7ed8d20054df5bc2670428163",
+      "backyard_visitor/assets/locomotion-back-contact.png": "42357c06c80cb4f2f0adbda9ad9c972a384a4619f770ba934e420af8e4094baa",
+      "backyard_visitor/assets/locomotion-front-passing.png": "0d97c93ac7dfe3d2cd6a9a05616d44cd8f6e37c5f18a5263bbd16c8cadfeab61",
+      "backyard_visitor/motion_art.py": "9a0aab0e0a9361fa87ce8d5676eea33ae188dc7cded146ec97e75ee2d7b2e06c"
+    },
+    "combined_sha256": "018f4e3d39c0a89d2642cb382bd6a086619dddd3ad394cd67195e031b727db2e"
+  },
+  "compiler_sha256": "f5db6c595989de5d71c339db31650e140d31a11f01b55880e1e6ef21f73fafb7",
+  "compiled_with": {
+    "python": "3.12.14",
+    "pyqt": "6.9.1",
+    "qt": "6.9.0",
+    "platform_plugin": "offscreen"
+  },
+  "native_facing": -1,
+  "logical_frame_size": [
+    144,
+    112
+  ],
+  "frame_count": 18,
+  "frames": [
+    {
+      "index": 0,
+      "file": "frame-00@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "9f5023e0d6082ef84997712dcccb3171684357e897d90a5a679d1b5f7de92e69",
+      "pixel_sha256": "43e98190681ce15039b8b05d845608b3794025cfab20d275d381aadf27e85f12",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 1,
+      "file": "frame-01@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "5c2d5bc0ba7cd8dd14b208a4f61a8acebfea2f2ca600161234d1b003091325c9",
+      "pixel_sha256": "e2aa741b77f3829b381f69117c7b679ded9e7552b7cc9741e4869550f031bfdf",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 2,
+      "file": "frame-02@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "74885ec5e95157727dc5117477f27317505d2d1540b9590e517d206a59a9e729",
+      "pixel_sha256": "059adeabc1d95526076611d9503ddda0baea654b1189c8a316dd99a8be7c0ce5",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 3,
+      "file": "frame-03@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "5c043c2141bfccd13fe1d62b41787b9ba884df57a61410aff8f3caf320ab0a3a",
+      "pixel_sha256": "4c10fd0f301b5929efb9ec4ed6e29dadf73e6c799447f56533e56db4d49e7888",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 4,
+      "file": "frame-04@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "9440f776e96c13f67d2345fa86619fe43e051ccf6e57b6000c1bfbc413dab25f",
+      "pixel_sha256": "36341af17eddbaeabd2d2cd183c43472bf43367b2d01898612bffddc36996750",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 5,
+      "file": "frame-05@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "bf5bf1b7b44342a8f2b49a2fda83a29a978c34027b989e423ea17230f92e0747",
+      "pixel_sha256": "802bffa9e03bef3eeb48296eb409cff82d9e627a5ec70ff085e51b07760c1b28",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 6,
+      "file": "frame-06@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "0fe8176ae63d7a8c55fc85d865d516960e2645c5baa773f1d8ac36b3cf404aee",
+      "pixel_sha256": "c48e2a9834772519f2704e6f54c1c3e05a54456a53aa95ccc9f39f16085f0c04",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 7,
+      "file": "frame-07@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "97820ece6d9971a322c00176ae7d586c94331870635bed8d8dfdff4c8c4e126d",
+      "pixel_sha256": "40e1b3d7781e109c94472ce7e08b21a3f4554ae0dea66f36a8975a978eedfa05",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 8,
+      "file": "frame-08@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "597d9f5632db883edd0cddb45eb5eb6b99d7dd0f228f10955e4f39c1311773d0",
+      "pixel_sha256": "681f4d69bea72d5f907ca3556417487c440291439b8f1833e9fff796cb6ebb92",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 9,
+      "file": "frame-09@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "6c7134ea1eb93a2700306c96189d6c585dd74cb282b4ba5108beeaa0dc67e7aa",
+      "pixel_sha256": "6f4591467a355c202863a0f9aeca18ce6cec979740db4e9ff11b4b229365580a",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 10,
+      "file": "frame-10@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "c075b17b154044fde7cad56d1f26421e77ea361494fbc90e9420e13be981ef79",
+      "pixel_sha256": "4ab51a275bd0573d7a534178450ea86259e73f7f8e8571f9cbf8a7398f1dc223",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 11,
+      "file": "frame-11@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "5835a3538cf68a421f42d73cd09fcdf4bad63f48a1cada45d1b3c6b277a1c578",
+      "pixel_sha256": "05f42d37cdbb7b59855ce968b120ed11c79444ec3d86b84924366638d8f24df0",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 12,
+      "file": "frame-12@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "36e1252a7f9bb265c848cb96a3e62dd35aecbf187c36dd16797fad0715a22762",
+      "pixel_sha256": "9edbfc8bde3cedb24343909998e1ae4d86c8b86c0767c8f343063a1aec6cc5a0",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 13,
+      "file": "frame-13@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "2fc37ae6a10b8ef311ad1b13f33efc8c2a09b744aecd7b4ac2dbada47e40253f",
+      "pixel_sha256": "e5930f3dc3dcd89d856ee4664346ffff93ca88a6456b4859fa2890d7be212306",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 14,
+      "file": "frame-14@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "51eaa61e3ea60c5374143cf2689b660417500d0994bf4816320076bee57c23f9",
+      "pixel_sha256": "8f109b1bde001bc073d3498b99a4feaf16c87ad89293a0a8f4a6fd34ad6c1995",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 15,
+      "file": "frame-15@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "e1ea7fcd65dabe4e71e20c7055f946ccd9f345123e9eacedeec75e25c1b08563",
+      "pixel_sha256": "9c7fe988178a28facd5338ca3ea5cb33e603d16c3174fc40e68c0b016359af57",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 16,
+      "file": "frame-16@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "4dd34e0175c3be31c9bf2a5011cd5767f28cd17f4bd005f76e2b0ef07a054988",
+      "pixel_sha256": "b6688ad0a682ae7899a430c49d5730ed5e2f500faa90505c62eb5d33854b28ab",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    },
+    {
+      "index": 17,
+      "file": "frame-17@2x.png",
+      "width": 288,
+      "height": 224,
+      "device_pixel_ratio": 2.0,
+      "png_sha256": "7f3a1b07222319b4c90bce4623305f6b434084c2c99111e75e6fd0473a62e8af",
+      "pixel_sha256": "c420792e25d98b4d2c003b6c1e029ccd4487f9128936c09b3a450c489ae6db28",
+      "pixel_format": "RGBA8888_Premultiplied",
+      "pixel_bytes": 258048,
+      "pixel_roundtrip_equal": true
+    }
+  ],
+  "tail": {
+    "index": null,
+    "file": "tail.png",
+    "width": 206,
+    "height": 360,
+    "device_pixel_ratio": 1.0,
+    "png_sha256": "83c875d1c0c586f887bf68f3b32bc0f1b7cef9b8b039a9d06fbb5cfe152b813f",
+    "pixel_sha256": "2fad4342b82cad17389a5972de5e903f71d6ffa069c0a398a0f3f37ecfac5749",
+    "pixel_format": "RGBA8888_Premultiplied",
+    "pixel_bytes": 296640,
+    "pixel_roundtrip_equal": true
+  },
+  "base_frame_count": 10,
+  "optional_frame_groups": {
+    "walking": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "window_peeking": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "purring": []
+  },
+  "interaction_frame_indices": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "base_states": {
+    "walking": [
+      0,
+      1
+    ],
+    "idle": [
+      2
+    ],
+    "peeking": [
+      3
+    ],
+    "grooming": [
+      4
+    ],
+    "sleeping": [
+      5
+    ],
+    "eating": [
+      7
+    ],
+    "carried": [
+      6
+    ],
+    "tail_peeking": [
+      8
+    ],
+    "jumping": [
+      9
+    ]
+  },
+  "states": {
+    "walking": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "idle": [
+      2
+    ],
+    "peeking": [
+      3
+    ],
+    "grooming": [
+      4
+    ],
+    "sleeping": [
+      5
+    ],
+    "eating": [
+      7
+    ],
+    "carried": [
+      6
+    ],
+    "tail_peeking": [
+      8
+    ],
+    "jumping": [
+      9
+    ],
+    "window_peeking": [
+      14,
+      15
+    ],
+    "purring": [
+      16,
+      17
+    ]
+  },
+  "blink_windows": {
+    "window_peeking": {
+      "period": 5,
+      "closed_from": 3.6,
+      "closed_until": 4
+    },
+    "purring": {
+      "period": 4.4,
+      "closed_from": 2.6,
+      "closed_until": 3.4
+    }
+  },
+  "locomotion_cycle_seconds": 0.8,
+  "pixel_validation": {
+    "passed": true,
+    "frames_compared": 18,
+    "tail_compared": true,
+    "method": "Exact source QPixmap.toImage and decoded PNG channel-byte equality after common premultiplied RGBA format conversion"
+  },
+  "dpr_contract": "PNG dimensions are physical pixels; restore device_pixel_ratio from this manifest. @2x filenames are a convenience, not a substitute for metadata.",
+  "product_loading_changed": false
+}
