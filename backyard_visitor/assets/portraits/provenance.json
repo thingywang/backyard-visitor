@@ -1,0 +1,15 @@
+{
+  "generator": "built-in image_gen",
+  "source": "cat-front-source.png",
+  "source_sha256": "b65bb95e2bf1351f38154d0317bc4b027320d5917fc2b0faf1a8b75f4745ec47",
+  "reference_role": "existing authored plain-black standing and front-view cats; identity/proportion reference",
+  "prompt": "Use case: photorealistic-natural. Asset type: transparent portrait sprite for a restrained realistic desktop cat visitor app. The two input images are reference images for the SAME solid black short-haired cat’s face, body proportions, soft fur detail and pale yellow-green eyes; do not reproduce their standing pose. Create ONE new full-body, perfectly FRONT-FACING, upright SEATED portrait of this adult solid-black domestic shorthair, viewed at cat eye level, head looking directly at viewer, natural calm alert expression. Whole ears, head, torso, two straight forelegs and front paws, two bent haunches with visible rear feet, and an elegant tail curled beside the paws must all fit visibly inside the frame. Anatomically natural adult cat, not kitten, no oversized eyes/head. Uniform black fur with gentle readable charcoal highlights and subtle fur strands, NO stripes, NO spots, NO white chest or toes, NO brown patches. Diffuse soft upper-left studio light matching reference, avoid hard rim glow. Centered upright composition, generous transparent margin, portrait frame around 6:7, full body not cropped, clean isolated alpha, no floor, no contact-shadow blob, no scene, no text, no border or watermark. This single original neutral cat will later be colored by a deterministic runtime material function, so preserve smoothly readable volume and fine monochrome fur.",
+  "packaging": "Qt smooth fit to transparent 288x336 canvas; source image unedited; anatomical parameter map only",
+  "logical_size": [
+    144,
+    168
+  ],
+  "dpr": 2,
+  "mapping_builder": "scripts/build_portrait_assets.py",
+  "mapping_notes": "Frontal head u follows nose-side to outer skull; protected pixels restricted to actual eyes/nose/ear interiors. Head pigment contrast is 30% of flank contrast, while orange/white fields remain unchanged."
+}

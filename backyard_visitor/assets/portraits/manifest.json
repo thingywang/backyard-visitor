@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "kind": "backyard-anatomical-coat-maps",
+  "frames": {
+    "9b3c3ecbacc0d4aed40afbdc826fbca278b3266800589c2b3e2f8756ca683089": {
+      "label": "portrait-front-seated",
+      "size": [
+        288,
+        336
+      ],
+      "dpr": 2,
+      "neutral_file": "portraits/cat-front-neutral.png",
+      "regions": [
+        {
+          "part": "body",
+          "path": [
+            [
+              68,
+              72
+            ],
+            [
+              70,
+              126
+            ]
+          ],
+          "radius": 26,
+          "side": "front-split",
+          "mode": "front",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "head",
+          "path": [
+            [
+              68,
+              53
+            ],
+            [
+              68,
+              33
+            ]
+          ],
+          "radius": 23,
+          "side": "front-split",
+          "mode": "portrait-head",
+          "sign": 1,
+          "bias": -0.15
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              57,
+              92
+            ],
+            [
+              59,
+              150
+            ]
+          ],
+          "radius": 8,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "front_leg",
+          "path": [
+            [
+              79,
+              92
+            ],
+            [
+              78,
+              150
+            ]
+          ],
+          "radius": 8,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              45,
+              110
+            ],
+            [
+              48,
+              142
+            ],
+            [
+              50,
+              145
+            ]
+          ],
+          "radius": 10,
+          "side": "right",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "hind_leg",
+          "path": [
+            [
+              94,
+              110
+            ],
+            [
+              92,
+              140
+            ],
+            [
+              90,
+              145
+            ]
+          ],
+          "radius": 10,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        },
+        {
+          "part": "tail",
+          "path": [
+            [
+              96,
+              134
+            ],
+            [
+              112,
+              139
+            ],
+            [
+              117,
+              146
+            ],
+            [
+              109,
+              149
+            ],
+            [
+              99,
+              146
+            ]
+          ],
+          "radius": 7,
+          "side": "left",
+          "mode": "side",
+          "sign": 1,
+          "bias": 0
+        }
+      ],
+      "pads": [],
+      "map_sha256": "237bd1f3f57108d16ef7fd4093a63d6c733a81e95525c574dea9cd8d0ae5592c",
+      "neutral_sha256": "294a09e03ecdb616b66bb8eac6da8d4997a8d7644a328d59236d277966ce4c6b"
+    }
+  }
+}
