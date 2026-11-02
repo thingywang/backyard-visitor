@@ -1,0 +1,2 @@
+# Runtime only. Development/build tools are optional and installed separately.
+PyQt6==6.9.1
