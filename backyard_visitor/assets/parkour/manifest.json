@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "kind": "backyard-visitor-parkour",
+  "accepted": true,
+  "display_size": [
+    144,
+    112
+  ],
+  "pixel_size": [
+    288,
+    224
+  ],
+  "pixel_ratio": 2,
+  "native_facing": -1,
+  "geometry_mode": "authored-alpha-uniform-anchor",
+  "frames": [
+    {
+      "kind": "jump_up",
+      "index": 0,
+      "variants": {
+        "base": {
+          "alpha_bounds": [
+            63,
+            25,
+            257,
+            217
+          ],
+          "mouth_anchor": [
+            51.2,
+            29.599999999999994
+          ],
+          "file": "jump_up-00-base@2x.png",
+          "sha256": "f964e261ae7252572fb50e607d36b40a2fca0c6592779c65fa02787b681713ba",
+          "climb_contact_x": null
+        },
+        "black": {
+          "alpha_bounds": [
+            63,
+            24,
+            264,
+            218
+          ],
+          "mouth_anchor": [
+            50.4,
+            29.599999999999994
+          ],
+          "file": "jump_up-00-black@2x.png",
+          "sha256": "9dd839ff2d0f8ed45cf22bea571c9ca72e5f1b5186bd0a1ccd007eb2e9860113",
+          "climb_contact_x": null
+        }
+      }
+    },
+    {
+      "kind": "jump_up",
+      "index": 1,
+      "variants": {
+        "base": {
+          "alpha_bounds": [
+            63,
+            26,
+            238,
+            197
+          ],
+          "mouth_anchor": [
+            51.2,
+            30.0
+          ],
+          "file": "jump_up-01-base@2x.png",
+          "sha256": "0d8f16cdf3e60a5d8e3ca4657dde700319b6ad57908025f7cbc16b901813e4bd",
+          "climb_contact_x": null
+        },
+        "black": {
+          "alpha_bounds": [
+            61,
+            24,
+            245,
+            197
+          ],
+          "mouth_anchor": [
+            50.4,
+            29.19999999999999
+          ],
+          "file": "jump_up-01-black@2x.png",
+          "sha256": "87c2fae1b414b190b74a8c27cd19fd36d44499d27edd5ea0dde44142ba5aa36a",
+          "climb_contact_x": null
+        }
+      }
+    },
+    {
+      "kind": "jump_down",
+      "index": 0,
+      "variants": {
+        "base": {
+          "alpha_bounds": [
+            60,
+            21,
+            228,
+            208
+          ],
+          "mouth_anchor": [
+            38.0,
+            77.4
+          ],
+          "file": "jump_down-00-base@2x.png",
+          "sha256": "96eb63e29a76fc06aa403aaaa7ab34e051e01dc1ddd7236a6bbba27a686ee3fc",
+          "climb_contact_x": null
+        },
+        "black": {
+          "alpha_bounds": [
+            57,
+            19,
+            229,
+            209
+          ],
+          "mouth_anchor": [
+            37.199999999999996,
+            76.4
+          ],
+          "file": "jump_down-00-black@2x.png",
+          "sha256": "19a749714d0f685889e6b65a8e45a897243bc213386d7d496a74b18f18df24b6",
+          "climb_contact_x": null
+        }
+      }
+    },
+    {
+      "kind": "jump_down",
+      "index": 1,
+      "variants": {
+        "base": {
+          "alpha_bounds": [
+            66,
+            23,
+            253,
+            196
+          ],
+          "mouth_anchor": [
+            42.8,
+            75.0
+          ],
+          "file": "jump_down-01-base@2x.png",
+          "sha256": "8c3a53dac775d1dc50ca37c72e1118ce37a6cdd8dfd8c93bd39cc28f9b0e8902",
+          "climb_contact_x": null
+        },
+        "black": {
+          "alpha_bounds": [
+            64,
+            19,
+            262,
+            198
+          ],
+          "mouth_anchor": [
+            42.2,
+            76.0
+          ],
+          "file": "jump_down-01-black@2x.png",
+          "sha256": "4edbd050c320f0993307428fe9114212f52129919d39f7efc93389dffbbd91af",
+          "climb_contact_x": null
+        }
+      }
+    },
+    {
+      "kind": "climb",
+      "index": 0,
+      "variants": {
+        "base": {
+          "alpha_bounds": [
+            168,
+            36,
+            280,
+            196
+          ],
+          "mouth_anchor": [
+            96.78,
+            33.219
+          ],
+          "file": "climb-00-base@2x.png",
+          "sha256": "ea762211cb058284b4e78d4a5535571288e36e0fcb080258e09b7189e207ca3e",
+          "climb_contact_x": 88
+        },
+        "black": {
+          "alpha_bounds": [
+            169,
+            32,
+            285,
+            196
+          ],
+          "mouth_anchor": [
+            97.775,
+            33.35
+          ],
+          "file": "climb-00-black@2x.png",
+          "sha256": "4d9809575ac3abc29c8e67875c1e46d2ac7dd5d2dbdb956a329fd703ac77e898",
+          "climb_contact_x": 88
+        }
+      }
+    },
+    {
+      "kind": "climb",
+      "index": 1,
+      "variants": {
+        "base": {
+          "alpha_bounds": [
+            168,
+            36,
+            277,
+            196
+          ],
+          "mouth_anchor": [
+            96.78,
+            33.219
+          ],
+          "file": "climb-01-base@2x.png",
+          "sha256": "9e5be13d7d52e36aece762ab2cf320037570f3769fa07bbabd3eae38955bf146",
+          "climb_contact_x": 88
+        },
+        "black": {
+          "alpha_bounds": [
+            164,
+            32,
+            274,
+            196
+          ],
+          "mouth_anchor": [
+            97.775,
+            33.35
+          ],
+          "file": "climb-01-black@2x.png",
+          "sha256": "ca8e44e9c2f8c075099be59025aeb7bfa372319f8b8c0973ade6d36917aabc07",
+          "climb_contact_x": 88
+        }
+      }
+    }
+  ]
+}
