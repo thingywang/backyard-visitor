@@ -1,0 +1,54 @@
+{
+  "file": "gifts.png",
+  "width": 2172,
+  "height": 724,
+  "native_facing": -1,
+  "frames": {
+    "feather": {
+      "rect": [
+        63,
+        92,
+        632,
+        541
+      ],
+      "content_bounds": [
+        8,
+        8,
+        616,
+        525
+      ]
+    },
+    "bottle_cap": {
+      "rect": [
+        789,
+        198,
+        504,
+        353
+      ],
+      "content_bounds": [
+        8,
+        8,
+        488,
+        337
+      ]
+    },
+    "mouse": {
+      "rect": [
+        1354,
+        172,
+        777,
+        449
+      ],
+      "content_bounds": [
+        8,
+        8,
+        761,
+        433
+      ]
+    }
+  },
+  "aliases": {
+    "toy_mouse": "mouse"
+  },
+  "notes": "Explicit source crops include transparent margins. Objects are independently fit, preserving aspect ratio, within a 38 logical-pixel square. Content bounds use alpha >8."
+}

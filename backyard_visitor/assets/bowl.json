@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "accepted": true,
+  "file": "bowl.png",
+  "width": 2032,
+  "height": 774,
+  "logical_size": [
+    62,
+    40
+  ],
+  "pixel_ratio": 2,
+  "render_scale": 0.12,
+  "render_anchor": [
+    31,
+    38
+  ],
+  "states": {
+    "empty": [
+      0
+    ],
+    "full": [
+      1
+    ]
+  },
+  "frames": [
+    {
+      "name": "empty",
+      "rect": [
+        0,
+        0,
+        1016,
+        774
+      ],
+      "foot_anchor": [
+        508,
+        664
+      ]
+    },
+    {
+      "name": "full",
+      "rect": [
+        1016,
+        0,
+        1016,
+        774
+      ],
+      "foot_anchor": [
+        508,
+        664
+      ]
+    }
+  ],
+  "notes": "Two photographic depictions of the same stoneware bowl; common crop/scale/anchor. Minor generated rim/texture differences remain."
+}

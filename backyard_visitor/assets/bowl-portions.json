@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "accepted": true,
+  "logical_size": [
+    62,
+    40
+  ],
+  "pixel_ratio": 2,
+  "opening_clip": [
+    6.5,
+    6.7,
+    49,
+    16.6
+  ],
+  "frames": [
+    {
+      "food": 1,
+      "file": "bowl-food-1.png",
+      "width": 1562,
+      "height": 1007,
+      "source_rect": [
+        330,
+        260,
+        965,
+        540
+      ],
+      "target_rect": [
+        15,
+        13,
+        32,
+        11
+      ]
+    },
+    {
+      "food": 2,
+      "file": "bowl-food-2.png",
+      "width": 1562,
+      "height": 1007,
+      "source_rect": [
+        180,
+        195,
+        1205,
+        620
+      ],
+      "target_rect": [
+        10,
+        9.5,
+        44,
+        15
+      ]
+    },
+    {
+      "food": 3,
+      "file": "bowl-food-3.png",
+      "width": 1562,
+      "height": 1007,
+      "source_rect": [
+        48,
+        150,
+        1465,
+        722
+      ],
+      "target_rect": [
+        5.5,
+        6,
+        52,
+        18.5
+      ]
+    }
+  ],
+  "notes": "Three independent, unchanged generated food-only PNGs. Runtime composition uses the exact original empty bowl and clips food to its opening; quantity is not represented by numbers or a common repeated bitmap."
+}

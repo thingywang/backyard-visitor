@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "accepted": true,
+  "file": "jump_transitions.png",
+  "width": 887,
+  "height": 1774,
+  "native_facing": -1,
+  "logical_size": [
+    144,
+    112
+  ],
+  "pixel_ratio": 2,
+  "render_scale": 0.234375,
+  "render_anchor": [
+    52.3,
+    108
+  ],
+  "states": {
+    "takeoff": [
+      0
+    ],
+    "compressed": [
+      1
+    ],
+    "recover": [
+      2
+    ]
+  },
+  "frames": [
+    {
+      "name": "takeoff",
+      "rect": [
+        0,
+        0,
+        887,
+        750
+      ],
+      "content_bounds": [
+        10,
+        178,
+        869,
+        496
+      ],
+      "foot_anchor": [
+        262,
+        673
+      ],
+      "mouth_anchor": [
+        55,
+        408
+      ]
+    },
+    {
+      "name": "compressed",
+      "rect": [
+        0,
+        750,
+        887,
+        420
+      ],
+      "content_bounds": [
+        10,
+        92,
+        863,
+        303
+      ],
+      "foot_anchor": [
+        262,
+        394
+      ],
+      "mouth_anchor": [
+        55,
+        262
+      ]
+    },
+    {
+      "name": "recover",
+      "rect": [
+        0,
+        1170,
+        887,
+        604
+      ],
+      "content_bounds": [
+        12,
+        16,
+        859,
+        520
+      ],
+      "foot_anchor": [
+        261,
+        535
+      ],
+      "mouth_anchor": [
+        55,
+        255
+      ]
+    }
+  ],
+  "source_generation": "exec-47a81a9c-be7c-406b-840b-b2e675d67d2e.png",
+  "notes": "Explicit nonuniform crop rectangles are required. Three real anatomical key poses, not a full animation. One uniform source-to-Retina scale; front-paw and mouth anchors are source-local coordinates. Each front paw maps to logical [52.3,108]. Mouth anchors are approximate visual attachment landmarks, before CatArt.paint's -2px offset; caller mirrors them for right-facing cats. No artwork deformation or alpha blending."
+}

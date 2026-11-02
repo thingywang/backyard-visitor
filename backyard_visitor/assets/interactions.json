@@ -1,0 +1,131 @@
+{
+  "file": "interactions.png",
+  "width": 1254,
+  "height": 1254,
+  "columns": 2,
+  "rows": 2,
+  "native_facing": -1,
+  "states": {
+    "window_peeking": [
+      0,
+      1
+    ],
+    "purring": [
+      2,
+      3
+    ]
+  },
+  "blink_windows": {
+    "window_peeking": {
+      "period": 5,
+      "closed_from": 3.6,
+      "closed_until": 4
+    },
+    "purring": {
+      "period": 4.4,
+      "closed_from": 2.6,
+      "closed_until": 3.4
+    }
+  },
+  "frames": [
+    {
+      "name": "window_peek_open",
+      "rect": [
+        0,
+        0,
+        627,
+        510
+      ],
+      "content_bounds": [
+        170,
+        106,
+        376,
+        366
+      ],
+      "foot_anchor": [
+        362,
+        472
+      ],
+      "render_anchor": [
+        72,
+        32
+      ],
+      "render_scale": 0.17438692098092642
+    },
+    {
+      "name": "window_peek_blink",
+      "rect": [
+        627,
+        0,
+        627,
+        510
+      ],
+      "content_bounds": [
+        151,
+        105,
+        372,
+        367
+      ],
+      "foot_anchor": [
+        340,
+        472
+      ],
+      "render_anchor": [
+        72,
+        32
+      ],
+      "render_scale": 0.17438692098092642
+    },
+    {
+      "name": "purr_open",
+      "rect": [
+        0,
+        510,
+        627,
+        744
+      ],
+      "content_bounds": [
+        146,
+        35,
+        443,
+        649
+      ],
+      "foot_anchor": [
+        354,
+        684
+      ],
+      "render_anchor": [
+        72,
+        108
+      ],
+      "render_scale": 0.23692307692307693
+    },
+    {
+      "name": "purr_closed",
+      "rect": [
+        627,
+        510,
+        627,
+        744
+      ],
+      "content_bounds": [
+        130,
+        34,
+        436,
+        650
+      ],
+      "foot_anchor": [
+        333,
+        684
+      ],
+      "render_anchor": [
+        72,
+        108
+      ],
+      "render_scale": 0.23692307692307693
+    }
+  ],
+  "coordinate_notes": "rect/content_bounds/foot_anchor use source pixels. render_anchor is logical144×112 canvas. render_scale maps source pixels to Retina2× canvas pixels.",
+  "window_contract": "window_peeking occupies top0..34 logical pixels with paws at32. Paint applies no vertical offset. With visitor.y=window_top−34 and clipping at window_top, head and both paws remain visible.",
+  "notes": "Distinct head-and-two-paw cutout and seated slow-blink key poses. No actual window/border/floor in artwork. Preserve native aspect ratio; peeking appears about33 logical pixels wide. Two eye keyframes have small generated fur/posture differences; not a complete facial animation."
+}

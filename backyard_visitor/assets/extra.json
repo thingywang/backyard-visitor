@@ -1,0 +1,142 @@
+{
+  "file": "extra.png",
+  "width": 1254,
+  "height": 1254,
+  "columns": 2,
+  "rows": 2,
+  "native_facing": -1,
+  "states": {
+    "carried": [
+      0
+    ],
+    "eating": [
+      1
+    ],
+    "tail_peeking": [
+      2
+    ],
+    "jumping": [
+      3
+    ]
+  },
+  "rects": [
+    [
+      0,
+      0,
+      500,
+      730
+    ],
+    [
+      500,
+      0,
+      754,
+      730
+    ],
+    [
+      0,
+      730,
+      500,
+      524
+    ],
+    [
+      500,
+      730,
+      754,
+      524
+    ]
+  ],
+  "frames": [
+    {
+      "name": "carried",
+      "rect": [
+        0,
+        0,
+        500,
+        730
+      ],
+      "content_bounds": [
+        161,
+        50,
+        261,
+        648
+      ],
+      "foot_anchor": [
+        290,
+        698
+      ],
+      "carry_anchor": [
+        290,
+        260
+      ]
+    },
+    {
+      "name": "eating",
+      "rect": [
+        500,
+        0,
+        754,
+        730
+      ],
+      "content_bounds": [
+        83,
+        300,
+        650,
+        305
+      ],
+      "foot_anchor": [
+        408,
+        605
+      ],
+      "muzzle_anchor": [
+        112,
+        568
+      ]
+    },
+    {
+      "name": "tail_peeking",
+      "rect": [
+        0,
+        730,
+        500,
+        524
+      ],
+      "content_bounds": [
+        174,
+        101,
+        206,
+        360
+      ],
+      "foot_anchor": [
+        280,
+        461
+      ],
+      "edge_anchor": [
+        280,
+        461
+      ]
+    },
+    {
+      "name": "jumping",
+      "rect": [
+        500,
+        730,
+        754,
+        524
+      ],
+      "content_bounds": [
+        21,
+        30,
+        706,
+        355
+      ],
+      "foot_anchor": [
+        374,
+        385
+      ]
+    }
+  ],
+  "alpha_bounds_threshold": 8,
+  "reference_content_height": 395,
+  "reference_content_width": 550,
+  "notes": "Explicit rectangles are mandatory; generated poses cross nominal 2x2 divider. Coordinates are x,y,width,height; anchors local to each frame. Four distinct static key poses, not full animation loops. Carried is taller than base frames and needs a taller display canvas or fit scaling. Tail's lower edge intentionally clips into hidden screen edge. Preserve alpha; visible red RGB fringes in some raw previews have alpha <=2."
+}
