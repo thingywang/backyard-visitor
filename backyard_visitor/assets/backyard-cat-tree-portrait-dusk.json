@@ -1,0 +1,62 @@
+{
+  "id": "backyard-cat-tree-portrait-dusk",
+  "file": "backyard-cat-tree-portrait-dusk.png",
+  "fit": "stretch",
+  "occluders": [],
+  "canvas": [
+    941,
+    1672
+  ],
+  "orientation": "portrait",
+  "theme_id": "cat-tree",
+  "phase": "dusk",
+  "cycle_pair": {
+    "morning": "backyard-cat-tree-portrait",
+    "dusk": "backyard-cat-tree-portrait-dusk"
+  },
+  "layout_id": "cat-tree-portrait-v1",
+  "title": "树影小院 · 竖屏暮光",
+  "notes": "Q21 reviewed open supports: real base, cubby roof, middle step, upper open bed. Fixed distant scale .65; cubby interior is not interactive. Paired phase imagery reviewed against the same support coordinates; actual system wallpaper acceptance remains deferred.",
+  "layout_geometry": {
+    "supports": [
+      {
+        "surface_id": "tree-base",
+        "left": 0.4782146652497343,
+        "right": 0.8342189160467588,
+        "y": 0.6010765550239234
+      },
+      {
+        "surface_id": "tree-roof",
+        "left": 0.6376195536663124,
+        "right": 0.8310308182784272,
+        "y": 0.5143540669856459
+      },
+      {
+        "surface_id": "tree-step",
+        "left": 0.46546227417640806,
+        "right": 0.6695005313496281,
+        "y": 0.4485645933014354
+      },
+      {
+        "surface_id": "tree-bed",
+        "left": 0.614240170031881,
+        "right": 0.7906482465462275,
+        "y": 0.3199760765550239
+      }
+    ],
+    "anchors": {
+      "tree-entry": [
+        0.5547290116896918,
+        0.6010765550239234
+      ],
+      "tree-approach": [
+        0.23,
+        0.9
+      ],
+      "tree-scratch-post": [
+        0.5738575982996812,
+        0.465311004784689
+      ]
+    }
+  }
+}

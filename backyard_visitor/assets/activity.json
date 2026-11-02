@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "accepted": true,
+  "file": "activity.png",
+  "width": 1024,
+  "height": 1536,
+  "logical_size": [
+    144,
+    112
+  ],
+  "pixel_ratio": 2,
+  "native_facing": -1,
+  "render_scale": 0.24,
+  "render_anchor": [
+    72,
+    108
+  ],
+  "states": {
+    "belly": [
+      0
+    ],
+    "swatting": [
+      1
+    ],
+    "resting": [
+      2
+    ],
+    "play_crouch": [
+      3
+    ]
+  },
+  "frames": [
+    {
+      "name": "belly",
+      "rect": [
+        0,
+        0,
+        1024,
+        423
+      ],
+      "content_bounds": [
+        21,
+        119,
+        977,
+        282
+      ],
+      "foot_anchor": [
+        512,
+        401
+      ]
+    },
+    {
+      "name": "swatting",
+      "rect": [
+        0,
+        423,
+        1024,
+        467
+      ],
+      "content_bounds": [
+        35,
+        21,
+        968,
+        409
+      ],
+      "foot_anchor": [
+        512,
+        430
+      ]
+    },
+    {
+      "name": "resting",
+      "rect": [
+        0,
+        890,
+        1024,
+        290
+      ],
+      "content_bounds": [
+        66,
+        35,
+        935,
+        235
+      ],
+      "foot_anchor": [
+        512,
+        270
+      ]
+    },
+    {
+      "name": "play_crouch",
+      "rect": [
+        0,
+        1180,
+        1024,
+        356
+      ],
+      "content_bounds": [
+        102,
+        17,
+        899,
+        292
+      ],
+      "foot_anchor": [
+        512,
+        309
+      ]
+    }
+  ],
+  "alpha_bounds_threshold": 20,
+  "notes": "Four independent real poses, not a continuous motion sequence. One common physical scale, anchors at each lowest body/foot contact. Resting belly faces down; belly/swatting expose abdomen. Minor fur/face/tail differences remain."
+}
